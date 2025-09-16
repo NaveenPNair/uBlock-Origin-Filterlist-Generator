@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '30 18 * * *'  # 6:30 PM UTC = 12:00 AM IST
+    - cron: '30 18 * * *'
   workflow_dispatch:
 jobs:
   mkcombo:
@@ -28,10 +28,9 @@ jobs:
         pip3 install requests publicsuffixlist
         python combo.py
     - name: Commit & Push
-      uses: actions-x/commit@v6
-      with:
-          email: updatebot@naveenpnair.github.io
-          name: Update bot
-          branch: main
-          message: Update the combo list
-          token: ${{ secrets.GH_PAT }}
+      run: |
+        git config user.name "Update bot"
+        git config user.email "updatebot@naveenpnair.github.io"
+        git add .
+        git diff --staged --quiet || git commit -m "Update the combo list"
+        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
