@@ -34,3 +34,4 @@ jobs:
           name: Update bot
           branch: main
           message: Update the combo list
+          token: ${{ secrets.GH_PAT }}
