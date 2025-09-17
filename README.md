@@ -6,11 +6,13 @@ All issues with the included lists should be reported upstream.<br>
 
 Note: This is designed to work _alongside_ the default lists in your content blocker. It can not replace them.
 
+To add my Custom uBlock Origin Combo List, click [subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fnaveenpnair.github.io%2FuBlock-Origin-Filterlist-Generator%2Flist.txt&title=Custom%20uBlock%20Origin%20Combo%20List)
+
 ## Licensing Note
 
 The Python script and my lists are under GPLv3. DandelionSprout's lists (Dandelion Sprout's Anti-Malware List and Actually Legitimate URL Shortener Tool) [are under the Dandelicence](https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md).
 
-# Lists Used
+## Lists Used
 
 1. [Bypass Paywalls Clean filter](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt)
 
