@@ -12,7 +12,7 @@ LIST_FILENAME = "list.txt"
 STATUS_FILENAME = "status.txt"
 DOMAIN_FILENAME = "domains.txt"
 
-# Your custom filter lists
+# Define filter lists to combine
 lists = {
     "Bypass Paywalls Clean filter": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
     "Browse websites without logging in": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
@@ -109,7 +109,7 @@ def parselist(l, curl=""):
     global ered
     plist = ""
     for line in l:
-        line = line.strip()  # Remove whitespace
+        line = line.strip()
         edomain = extdomain(line)
         if (line.startswith("!") or line.startswith("#")) and "include" not in line:
             continue
@@ -174,7 +174,7 @@ except Exception as err:
 
 # Add subdomains
 subsfound = 0
-domainplussub = justdomains.copy()  # Make a proper copy
+domainplussub = justdomains.copy()
 for sub in subdomains:
     try:
         maindomain = psl.privatesuffix(sub)
@@ -184,7 +184,7 @@ for sub in subdomains:
     except Exception as err:
         print(f"Warning: Error processing subdomain {sub}: {err}")
 
-# Write domains with subdomains - FIXED BUG: was writing justdomains instead of domainplussub
+# Write domains with subdomains
 try:
     with open("domains_subdomains.txt", "w", encoding="UTF-8") as f:
         f.write("\n".join(domainplussub))
