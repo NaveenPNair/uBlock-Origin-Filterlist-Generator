@@ -26644,6 +26644,12 @@ $all,ipaddress=46.101.81.149
 ||freshsubz.com^$doc
 ||52.15.34.25^$all
 $all,ipaddress=52.15.34.25
+||203.188.171.156^$all
+$all,ipaddress=203.188.171.156
+||soft-gets.com^$all
+||reaitek.com^$all
+||fastdomain-uoemathhvq.workers.dev^$all
+||dev.ip.organica.tv^$all
 ||downloadprovider.me^$all,~inline-font
 toorgle.net##.join
 ||cash93.com^$all,~inline-font
@@ -33139,6 +33145,7 @@ drvhub.net##.driver-item__install
 ||gitcoin-developers.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||github-foundation.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||gitcoin-grants.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||foundation-github.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
