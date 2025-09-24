@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 23/09/2025
+! Last updated: 24/09/2025
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 13 filter lists
 
@@ -33150,6 +33150,9 @@ drvhub.net##.driver-item__install
 ||github-foundation.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||gitcoin-grants.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||foundation-github.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||gitcoin-application.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||gitcoin-rewards.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
+||gitcoin-eligibility.$all,domain=~blatant_scammers_who_have_no_actual_relations_with_github_whatsoever.*
 ||0network.com^$all
 ||100conversions.com^$all
 ||1tag.ai^$all
