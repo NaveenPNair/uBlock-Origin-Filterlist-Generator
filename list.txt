@@ -41834,7 +41834,6 @@ $removeparam=login_source,doc,domain=theathletic.com|nytimes.com
 $removeparam=afSmartRedirect
 ||app.snyk.io^$removeparam=page,doc
 $removeparam=repost,domain=nbcnews.com|sacurrent.com
-||wsj.com^$removeparam=st
 ||uslecce.it^$removeparam=et
 $removeparam=adt_ei
 $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
