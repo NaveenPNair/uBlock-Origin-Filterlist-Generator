@@ -42,6 +42,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /paywall/evercookie_get.js$script,~third-party
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
+/wp-content/plugins/newspack-plugin/dist/memberships-gate-metering.js$script,~third-party
 /wp-content/*/plugins/rcp-view-limit/$script,~third-party
 /zephr/feature$xmlhttprequest
 ||abril.com.br/*/abril-paywall/$script,~third-party
