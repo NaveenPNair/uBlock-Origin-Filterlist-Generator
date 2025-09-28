@@ -23,7 +23,7 @@
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
 /xbuilder/experience/execute$xmlhttprequest,~third-party,domain=~fortune.com
-||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
+||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party,domain=~automobilwoche.de
 @@||piano.io^$domain=hbr.org|japantimes.co.jp
 @@||tinypass.com$script,domain=ajc.com|thelogic.co
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
