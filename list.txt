@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 05/10/2025
+! Last updated: 06/10/2025
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 13 filter lists
 
@@ -1621,6 +1621,11 @@ www.staradvertiser.com###paywall-screen
 www.staradvertiser.com##.modal-backdrop
 www.staradvertiser.com##body:style(overflow:inherit!important)
 www.staradvertiser.com###hsa-paywall-content:style(display:inherit!important)
+sofrep.com###paywall_wrap
+sofrep.com##.paywall~div>.fader
+sofrep.com##.paywall:style(display:inherit!important)
+sofrep.com###scrollerCTA
+sofrep.com##.non-paywall:has(+.paywall)
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
@@ -42210,6 +42215,7 @@ $removeparam=/^ref=underfl0w\.com$/
 ||blu-ray.com^$removeparam=c
 ||blu-ray.com^$removeparam=retailerid
 ||downloads.sourceforge.net^$removeparam=r
+$doc,removeparam=loclid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
