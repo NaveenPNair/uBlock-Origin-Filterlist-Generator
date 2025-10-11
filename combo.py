@@ -15,6 +15,7 @@ DOMAIN_FILENAME = "domains.txt"
 
 # Define filter lists to combine
 lists = {
+    "HaGeZi's Pro DNS Blocklist": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
     "Bypass Paywalls Clean filter": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
     "Browse websites without logging in": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "FMHY Unsafe sites filterlist - Plus": "https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist.txt",
