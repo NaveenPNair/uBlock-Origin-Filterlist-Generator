@@ -175601,11 +175601,7 @@ axios.com##+js(ra, style, html[style], stay)
 bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
-bizjournals.com##+js(ra, style, .paywall-content[style], stay)
-bizjournals.com##+js(ra, style, html, stay)
-bizjournals.com##+js(rc, is-overlaid, html.is-overlaid, stay)
-bizjournals.com##+js(rc, is-overlaid, body.is-overlaid, stay)
-bizjournals.com##+js(ra, inert, div#__nuxt[inert])
+||bizjournals.com/*/news/$inline-script
 bizjournals.com##div[id^="headlessui-dialog-"],div.sheet-overlay
 ||cm.bloomberg.com^$xmlhttprequest,~third-party
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
