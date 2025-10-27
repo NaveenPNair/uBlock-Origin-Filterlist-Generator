@@ -178055,8 +178055,6 @@ theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
 timeshighereducation.com##+js(rc, paywall-fade, div.paywall-fade)
 timeshighereducation.com##div.paywall-active
-tt.com##+js(rc, exclusive-elem, .exclusive-elem)
-tt.com##div.adblock-warning
 unherd.com##+js(ra, id, div#premiumcontent)
 unherd.com##div#premiumpreview
 valeursactuelles.com##div.qiota
