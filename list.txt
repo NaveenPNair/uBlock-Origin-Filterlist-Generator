@@ -197266,6 +197266,7 @@ $removeparam=id,domain=affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 ||fastmail.com^$removeparam=ps_xid
 ||fastmail.com^$removeparam=gsxid
 ||fastmail.com^$removeparam=gspk
+||twitch.tv/activate^$removeparam=device-metadata
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
