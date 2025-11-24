@@ -197208,3 +197208,5 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
 ||brave.com^
+||zorin.com^
+||zorinos.com^
