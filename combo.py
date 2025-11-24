@@ -28,7 +28,7 @@ lists = {
     "The malicious website blocklist": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/Alternative%20list%20formats/antimalware_lite.txt",
     "iam-py-test's antitypo list": "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antitypo.txt",
     "Actually Legitimate URL Shortener Tool": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
-    "uBlock Sync": "https://gist.githubusercontent.com/NaveenPNair/d327b1d05009923291698201c41357f7/raw/e16a42775bec6cf8a3d221dd0385268474270736/uBlock%2520Sync.txt"
+    "uBlock Sync": "https://gist.githubusercontent.com/NaveenPNair/d327b1d05009923291698201c41357f7/raw/uBlock%20Sync.txt"
 }
 
 # External lists for filtering (also must all succeed)

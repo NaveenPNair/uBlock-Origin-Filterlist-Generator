@@ -40,4 +40,4 @@ The Python script and my lists are under GPLv3. DandelionSprout's lists (Dandeli
 
 13. [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
-14. [uBlock Sync](https://gist.githubusercontent.com/NaveenPNair/d327b1d05009923291698201c41357f7/raw/e16a42775bec6cf8a3d221dd0385268474270736/uBlock%2520Sync.txt)
+14. [uBlock Sync](https://gist.githubusercontent.com/NaveenPNair/d327b1d05009923291698201c41357f7/raw/uBlock%20Sync.txt)
