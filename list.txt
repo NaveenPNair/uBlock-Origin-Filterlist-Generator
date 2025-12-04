@@ -190499,6 +190499,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||flytomoon.online^$document
 ||casualhookup.com^$document
 ||spinfortune.vip^$document
+||farehutz.us^$document
+||farehutz.ca^$document
+||farehutz.co.uk^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
