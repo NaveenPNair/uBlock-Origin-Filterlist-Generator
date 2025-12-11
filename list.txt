@@ -198214,6 +198214,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||air1network.us^$document
 ||flyostudio.com^$document
 ||hub.docker.com/u/winktraveldeals$document
+||cikadron.co.in^$all
+||virusscanner.cc^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
