@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 12/12/2025
+! Last updated: 13/12/2025
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -198416,6 +198416,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||unocruise.com^$document
 ||air1network.us^$document
 ||flyostudio.com^$document
+||airlinesupports.us^$document
+||airlinesupports.co.uk^$document
 ||hub.docker.com/u/winktraveldeals$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
