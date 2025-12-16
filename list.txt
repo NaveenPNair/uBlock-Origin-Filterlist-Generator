@@ -170949,7 +170949,9 @@ inman.com##.ism-article-block
 ||cloudfront.net/imonkey-blog-*.min.js$script,domain=insidermonkey.com
 ipsoa.it##+js(ra, style, div.paywall)
 ||jerseyeveningpost.com$inline-script
-||jewishinsider.com/wp-content/themes/jewish-insider/js/owl.carousel.min.js$script,~third-party
+jewishinsider.com##+js(rc, paywalled-content, section.paywalled-content, stay)
+jewishinsider.com##+js(rc, whitePopup, body.whitePopup, stay)
+jewishinsider.com##div.regModalOuter
 ||jornaldocomercio.com/*/json/paywall.json$xmlhttprequest,~third-party
 jornaljoca.com.br##+js(acis, $, paywall)
 kommersant.ru##+js(rc, doc--regwall, article.doc--regwall, stay)
