@@ -166817,7 +166817,6 @@ sniffies.com##.ng-tns-c192-10.overset > .ng-tns-c192-10
 sniffies.com##.map-main-content > .ng-star-inserted.ng-tns-c192-12
 ||site.sniffiesassets.com/upgrade-ads^
 ||media.twiliocdn.com^$3p
-
 duckduckgo.com,bing.com##a[href*="forkful.ai"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="otter.ai"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="fireflies.ai"]:upward(li):remove()
