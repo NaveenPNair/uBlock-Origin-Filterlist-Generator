@@ -163784,7 +163784,7 @@ csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
-||denik.cz/*.html$inline-script
+denik.cz##+js(ra, class, div.paywall, stay)
 discovermagazine.com##body:style(overflow: auto !important;)
 discovermagazine.com##div.fIkXwQ,div[style*="fadeIn"],div[role="button"][aria-label="Dismiss Dialog"]
 ||dn.se/check-paywall-v2.js,~third-party
