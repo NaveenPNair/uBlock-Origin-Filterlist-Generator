@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 28/12/2025
+! Last updated: 29/12/2025
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -183913,7 +183913,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 /3-blck-thefinadv-2clks.html?kw=$document
 ||154.223.16.114^$third-party
 ||dropbox.com/scl/fi/q0wq1lha5o0rkgdy9rdr4/m.zip$document
-||perevod-a.shop^$document
 ||dwnld-here.com^$document
 /74Ib/7.html?cep=$document
 ||stratum-eu.rplant.xyz^$all
@@ -184264,7 +184263,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||compte-free.hubside.fr^$document
 ||espacefidelitefree.fr^$all
 ||free-mob2584.hubside.fr^$all
-||web-free.hubside.fr^$all
 ||zimbra-free-com.hubside.fr^$all
 ||zimbra-free-com.$document,domain=~translate.goog
 ||free-mobi20i2582.hubside.fr^$all
@@ -184730,7 +184728,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||atomiciwallet.com^$document
 ||base.bridge-home.net^$document
 ||v3-dappradar.com^$document
-||app.darppadar.com^$document
 ||darkmodz-links.com^$all
 ||wisconsindot.gov-krsp.life^$all
 ||lonely.beauty^$document
@@ -185302,7 +185299,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||decompraschile.com^$document
 ||salimusic.com^$document
 ||open-cbd.de^$document
-||teevpower.com^$document
 ||shopperexpress.shop^$document
 ||mila-vica.de^$document
 ||tinkleo.com^$document
@@ -185412,7 +185408,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||only2date.online^$document
 ||amnotification.com^$all
 ||desbiens123.net^$all
-||avprotect.store^$all
 ||systemoon.co.in^$all
 ||prizehub.top^$all
 ||ambrs.online^$document
@@ -186224,7 +186219,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||bbbdjdhes.com^$document
 ||bbbiuiu.com^$document
 ||usps.zzzopjl.com^$document
-||bbbouou.com^$document
 ||zzzopjl.com^$document
 ||bbbiudhs.com^$document
 ||cashjuice.com^$document
