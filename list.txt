@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 02/01/2026
+! Last updated: 03/01/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -185325,7 +185325,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||clashofclanhacks.com^$all
 ||clikurl.com^$all
 ||comcmast.net^$all
-||commomlit.com^$all
 ||cstress.net^$all
 ||cumonlucy.co.uk^$all
 ||davidsonfirealarms.com^$all
@@ -187156,7 +187155,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||californiasports.shop^$all
 ||cityconnect.pro^$all
 ||clipperton.sk^$all
-||collegespartans.com^$all
 ||crucialcatch.pro^$all
 ||dallascowboys.sale^$all
 ||fanaticsshop.net^$all
@@ -188508,7 +188506,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||blsindiavisa.kr^$document
 ||cibtvisas.com^$document
 ||evisa.express^$document
-||evisatoindia.org^$document
 ||globalvisacorp.com^$document
 ||india.evisa-agency.com^$document
 ||indiae-visa.com^$document
@@ -188576,6 +188573,11 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
+||nastydollz.wiki^$all
+||singlesrussian.com^$document
+||poundrynloweq.com^$all
+||ukrainianbride.net^$document
+||ukrainelady.net^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
