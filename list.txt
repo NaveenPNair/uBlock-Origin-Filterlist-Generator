@@ -188367,6 +188367,12 @@ $removeparam=id,domain=affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 ||dllfiles.com^$removeparam=c
 ||microsoft.com/*/download/details$removeparam=quot
 ||microsoft.com/*/download/details$removeparam=lc
+||asuswebstorage.com^$removeparam=ve
+||asuswebstorage.com^$removeparam=pv
+||asuswebstorage.com^$removeparam=x-asc-sid-version
+||asuswebstorage.com^$removeparam=x-asc-device-name
+||asuswebstorage.com^$removeparam=x-asc-os-version
+||asuswebstorage.com^$removeparam=tlt
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
