@@ -184304,6 +184304,12 @@ $all,ipaddress=52.207.126.104
 $all,ipaddress=2604:9e00:1:129::2:b10
 $all,ipaddress=2606:4700:3033::6815:5644
 $all,ipaddress=2a01:4f8:2201:388a::2
+||aipredictdeathcalculator.com^$doc
+||deathcalculator.ai^$doc
+||life2vecai.com^$doc
+||deathprediction.ai^$doc
+||life2veccalculatoronline.github.io^$doc
+||deathcalculator.net^$doc
 ||1tag.ai^$all
 ||app-shake.com^$all
 ||bluesandals.xyz^$all
@@ -186891,7 +186897,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||bskryar.icu^$document
 ||aochalain.icu^$document
 ||ebnbwm070725fhl.cfd^$document
-||im9ov070725iqu.cfd^$document
 ||9wn7wh140825st.cfd^$document
 ||96u5qbb3v1408257.cfd^$document
 ||cdxtsd.cfd^$document
@@ -186912,6 +186917,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||best-knowledge-good24.com^$all
 ||lastpassrecovery.com^$all
 ||simplexspot.com^$all
+||crushon.ai/character/cdc77abe-83ba-4b64-8e35-005ab8bd2af0/$document
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
@@ -188695,6 +188701,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||americanairlinescustomerservic.$document
 ||cikadron.co.in^$all
 ||virusscanner.cc^$all
+||vp.nastydollz.wiki^$all
 ||singlesrussian.com^$document
 ||ukrainianbride.net^$document
 ||ukrainelady.net^$all
