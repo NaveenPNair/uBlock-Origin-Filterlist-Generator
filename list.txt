@@ -166421,6 +166421,7 @@ inkl.com##+js(ra, class, div.paywall)
 inkl.com##div.gradient-container
 interestingengineering.com##body:style(overflow: auto !important; position: relative !important; top: unset !important)
 interestingengineering.com##main>div[class*="t-hidden"],div.t-bg-black
+investors.com##+js(remove-cookie, __tbc)
 irishexaminer.com/##+js(cookie-remover, blaize_session)
 japantimes.co.jp##+js(cookie-remover, xbc)
 journaldemontreal.com,journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
@@ -185484,7 +185485,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||markbrey.com^$all
 ||nuwealthmedia.com^$all
 ||drpease.com^$all
-||spillpalletonline.com^$all
 ||altcoinfan.com^$all
 ||hill-family.us^$all
 ||gamesrar.co^$all
