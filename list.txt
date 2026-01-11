@@ -190762,6 +190762,8 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||driverfix.com^$all
 ||pdfpilotapp.com^$document
 ||restorex360.com^$document
+||drivethelife.com^$document
+||drivertalent.com^$document
 ||24hourhtmlcafe.com^$document
 ||ilovealgarve.net^$document
 ||nbgpapartmani.com^$document
