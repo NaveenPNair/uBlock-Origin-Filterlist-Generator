@@ -188395,7 +188395,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||spacex-starship.org^$all
 ||spacexgive.org^$all
 ||steamcommumtiy.com^$document
-||usps-delivery-a.com^$all
 ||fitgirltorrent.$document
 ||doge-coin24.org^$all
 ||45.141.87.216^$all
@@ -189501,7 +189500,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||zatte.co^$document
 ||lanno.co^$document
 ||detty.co^$document
-||durro.co^$document
 ||goph.club^$all
 ||zat.io^$all
 ||bcb.game^$all
@@ -190656,6 +190654,9 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||singlesrussian.com^$document
 ||ukrainianbride.net^$document
 ||ukrainelady.net^$all
+||heart-rematcher.life^$all
+||fraudate.com^$document
+||grannyloves.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
