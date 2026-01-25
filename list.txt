@@ -190783,7 +190783,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||lottocolombia.net^$document
 ||lottodanmark.net^$document
 ||lottofrankfurt.de^$document
-||lottohungary.org^$document
 ||lottoireland.net^$document
 ||lottokuwait.org^$document
 ||lottolithuania.org^$document
