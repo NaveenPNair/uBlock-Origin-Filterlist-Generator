@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 27/01/2026
+! Last updated: 28/01/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -175023,7 +175023,6 @@ bloomberg.com###pathfinder-tout
 bloomberg.com##+js(trusted-replace-fetch-response, /\"eligible\":false/, "eligible":true, gatehouse)
 ||smartwall.theglobeandmail.com^
 ||theglobeandmail.com/*/zephr-browser/
-||theglobeandmail.com/zephr/
 theglobeandmail.com###subscription-pencil-area
 theglobeandmail.com##.pb-f-marketing-container-placeholder
 theglobeandmail.com##.container-with-ad
@@ -175256,7 +175255,6 @@ quora.com##.q-box[style*="filter: blur"]:style(filter:none !important)
 quora.com##body:style(overflow:auto !important)
 ||quora.com/ajax/receive_POST
 tampabay.com##.html-advertisement,.vert
-||forbes.com/zephr/
 ||forbes.com/blaize/
 ||nrc.nl/paywall-api
 ||nrc.nl/tag/tag.js
@@ -175267,7 +175265,7 @@ foxnews.com##.show-gate.gated-overlay.article-gating
 ||businessinsider.com/chunks/scripts/piano.
 ||businessinsider.com/chunks/scripts/components~paywall-
 ||businessinsider.com/ajax/render-component?path=paywall
-/zephr$domain=nrc.nl|dailymail.co.uk|forbes.com|irishtimes.com|nysun.com
+/zephr/*$1p,domain=nrc.nl|dailymail.co.uk|forbes.com|irishtimes.com|nysun.com|nzherald.co.nz|theglobeandmail.com|theatlantic.com
 dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody] *:nth-child(n+3),body.is-paywalled-article.mol-mobile .scrollable-content>article,body.is-paywalled-article.mol-mobile .scrollable-content>article *:nth-child(n+28):style(display:inherit!important)
 dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody]::after:style(content:none!important)
 dailymail.co.uk##body.is-paywalled-article.mol-mobile .scrollable-content>article:style(padding-bottom:0!important)
