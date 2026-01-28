@@ -174992,7 +174992,7 @@ m.youtube.com##ytm-reel-shelf-renderer:has(ytm-shorts-lockup-view-model)
 /tncms/api/access.$script
 richmond.com##+js(acis, $, reg-wall)
 *##html:has(>head>meta[name="tncms-access-version"]) .subscriber-only:style(display:block!important)
-abqjournal.com,mdjonline.com,santafenewmexican.com,northwestgeorgianews.com,idahopress.com,mainstreetnews.com,wvnews.com,albanyherald.com,djournal.com,thesunchronicle.com,lagrandeobserver.com,annistonstar.com,thebrunswicknews.com,anchoragepress.com,ellsworthamerican.com,bedfordgazette.com,henryherald.com,madison.com,omaha.com##+js(rpnt, script, /if \(window.location.hash\)/, '/*start*/unscramble=function(r){for(var a="",n=0,t=r.length;n<t;n++){var e=r.charCodeAt(n);e>=33&&e<=126?(sTmp=String.fromCharCode(33+(e-33+47)%94),a+=sTmp):a+=r.charAt(n)}return a};document.querySelectorAll(".subscriber-only.encrypted-content").forEach(function(e){e.innerHTML=unscramble(e.textContent),e.classList.remove("encrypted-content")});/*end*/ if(window.location.hash)', sedCount, 2)
+abqjournal.com,mdjonline.com,santafenewmexican.com,northwestgeorgianews.com,idahopress.com,mainstreetnews.com,wvnews.com,albanyherald.com,djournal.com,thesunchronicle.com,lagrandeobserver.com,annistonstar.com,thebrunswicknews.com,anchoragepress.com,ellsworthamerican.com,bedfordgazette.com,henryherald.com,madison.com,omaha.com,richmond.com,apg-wi.com##+js(rpnt, script, /if \(window.location.hash\)/, '/*start*/unscramble=function(r){for(var a="",n=0,t=r.length;n<t;n++){var e=r.charCodeAt(n);e>=33&&e<=126?(sTmp=String.fromCharCode(33+(e-33+47)%94),a+=sTmp):a+=r.charAt(n)}return a};document.querySelectorAll(".subscriber-only.encrypted-content").forEach(function(e){e.innerHTML=unscramble(e.textContent),e.classList.remove("encrypted-content")});/*end*/ if(window.location.hash)', sedCount, 2)
 ||californiatimes.com^*/Bootstrap.js$script
 ||californiatimes.com/meter/$script
 ||californiatimes.com/meteringjs/$script
@@ -175164,6 +175164,9 @@ abqjournal.com##[id^="story-ad-"]
 abqjournal.com###header-banner
 abqjournal.com#@##footer-banner
 ||vidible.tv^$third-party,domain=abqjournal.com
+||abqjournal.com/view-resources/public/common/Paywall.js
+abqjournal.com##.bodytext>*:style(display:inherit!important)
+abqjournal.com##+js(remove-cookie, nwpagetrac)
 nzherald.co.nz##.pb-f-article-related-articles
 nzherald.co.nz###premium-toaster
 ||nzherald.co.nz/arc/subs/p.js
@@ -175266,6 +175269,7 @@ foxnews.com##.show-gate.gated-overlay.article-gating
 ||businessinsider.com/chunks/scripts/components~paywall-
 ||businessinsider.com/ajax/render-component?path=paywall
 /zephr/*$1p,domain=nrc.nl|dailymail.co.uk|forbes.com|irishtimes.com|nysun.com|nzherald.co.nz|theglobeandmail.com|theatlantic.com
+||newzware.com/zephr/
 dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody] *:nth-child(n+3),body.is-paywalled-article.mol-mobile .scrollable-content>article,body.is-paywalled-article.mol-mobile .scrollable-content>article *:nth-child(n+28):style(display:inherit!important)
 dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody]::after:style(content:none!important)
 dailymail.co.uk##body.is-paywalled-article.mol-mobile .scrollable-content>article:style(padding-bottom:0!important)
@@ -175308,6 +175312,8 @@ stereogum.com##+js(set, Node.prototype.removeChild, noopFunc)
 stereogum.com##[class^="ContentGate"]
 stereogum.com##+js(ra, class, [class^="PostContent_truncate"])
 stereogum.com##+js(aeld, click)
+medina-gazette.com,chroniclet.com##+js(rpnt, script, /_returnPageLink/, checkElement=setInterval(()=>{document.querySelector(".summary")&&(document.querySelector(".summary").innerHTML=JSON.parse(document.querySelector('script[type="application/ld+json"]').innerText).articleBody.replaceAll("\n"\,"<p>")\,clearInterval(checkElement))}\,500);_returnPageLink, sedCount, 1)
+medina-gazette.com,chroniclet.com##.auth_provider_widget
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
@@ -193849,7 +193855,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||jscloud.live^$all
 ||cloudjs.live^$all
 ||weibo-b5game.com^$all
-||inroadslab.com^$all
 ||instantgreenapp.com^$document
 ||www.ssp.sp.gov.br/ead/report/video/video_$document
 ||www.ssp.sp.gov.br/ead/auth/video/video_$document
@@ -197040,6 +197045,7 @@ play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
+||gyrovague.com^$all,domain=archive.*|~archive.org
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
 majorgeeks.com#?#b:has(a[target^=reimage])
 bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
