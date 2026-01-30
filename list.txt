@@ -176874,6 +176874,10 @@ bizjournals.com##html, body:style(overflow: inherit!important)
 bizjournals.com##div[data-dev^="CxWidget_site"][data-dev*="marketing"]
 bizjournals.com###MarketSubOffer, #cxense_bottom_bar
 bizjournals.com##.paywall-content>.print\:hidden
+bizjournals.com##+js(rpnt, script, '"standard"', '"nativeAd"', sedCount, 1)
+bizjournals.com##[data-dev="MovableAd"]
+bizjournals.com##a[id^="cXLink"]:upward(#headlessui-portal-root)
+bizjournals.com##[data-dev="PromoListings"]
 australvaldivia.cl##+js(set, app.isPortada, true)
 australvaldivia.cl##+js(remove-attr, oncontextmenu)
 ||harpers.org^*/pum/
@@ -177000,6 +177004,7 @@ stereogum.com##+js(ra, class, [class^="PostContent_truncate"])
 stereogum.com##+js(aeld, click)
 medina-gazette.com,chroniclet.com##+js(rpnt, script, /_returnPageLink/, checkElement=setInterval(()=>{document.querySelector(".summary")&&(document.querySelector(".summary").innerHTML=JSON.parse(document.querySelector('script[type="application/ld+json"]').innerText).articleBody.replaceAll("\n"\,"<p>")\,clearInterval(checkElement))}\,500);_returnPageLink, sedCount, 1)
 medina-gazette.com,chroniclet.com##.auth_provider_widget
+musicbusinessworldwide.com##.mb-article__body:style(display:inherit!important)
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
@@ -185537,7 +185542,6 @@ $all,ipaddress=/^5\.61\.60\.[12]?\d?\d$/
 ||lifestyle-hot-news.com^$all,~inline-font
 ||lifestyle-secrets-blog.com^$all,~inline-font
 ||local-breaking-posts.com^$all,~inline-font
-||mellina-blog.com^$all,~inline-font
 ||music-buzz-blog.com^$all,~inline-font
 ||music-trending-news.com^$all,~inline-font
 ||my-live-videos.com^$all,~inline-font
@@ -185560,7 +185564,6 @@ $all,ipaddress=/^5\.61\.60\.[12]?\d?\d$/
 ||trending-celeb-news.com^$all,~inline-font
 ||ts-tracker.me^$all,~inline-font,domain=~malware_redirection_trains.*
 ||viralvidoes-buzz-blog.com^$all,~inline-font
-||weather-messaging.com^$all,~inline-font
 ||worldwide-sports-feed.com^$all,~inline-font
 ||xxxmessages.com^$all,~inline-font
 ||zorka-news.com^$all,~inline-font
@@ -193690,7 +193693,6 @@ drvhub.net##.driver-item__install
 ||go-g3t-msg.net^$all
 ||go-g3t-push.com^$all
 ||go-g3t-s0me.com^$all
-||go-g3t-s0me.net^$all
 ||go-g3t-som3.com^$all
 ||go-get-msg.net^$all
 ||goclickz.net^$all
@@ -193729,7 +193731,6 @@ drvhub.net##.driver-item__install
 ||li5t3nv1r91n15n1c3.xyz^$all
 ||lifeontheothersideoftheriver.xyz^$all
 ||linksadsprf.com^$all
-||linksprf.com^$all
 ||live-newz-online.com^$all
 ||live-podcasthub.com^$all
 ||live-video-online.com^$all
@@ -193776,7 +193777,6 @@ drvhub.net##.driver-item__install
 ||psh6.1push.io^$all
 ||purrreat.net^$all
 ||purrrrrrrr.com^$all
-||purrrrrrrr.net^$all
 ||rpdmkrclk.com^$all
 ||runn1n90u70ft1m3.xyz^$all
 ||runn1ngtohapp1n355.xyz^$all
@@ -193786,7 +193786,6 @@ drvhub.net##.driver-item__install
 ||safesearchguard.com^$all
 ||sassonbanaibudgetrental.com^$all
 ||secret-celebrity-news.com^$all
-||semasu.net^$all
 ||sh00t1n94n1m47515n0fun.xyz^$all
 ||shetalkedwithhimforhours24.xyz^$all
 ||shewontknowbutithinkitisfogood.com^$all
@@ -193798,8 +193797,6 @@ drvhub.net##.driver-item__install
 ||spr1n9154r0und.xyz^$all
 ||spuplet.net^$all
 ||spuppeh.com^$all
-||spuppeh.net^$all
-||srvtrck.com^$all
 ||t00f45tt0burn.xyz^$all
 ||t0p9l4ssf0ry0u.xyz^$all
 ||t3llm3th35t0ry.xyz^$all
@@ -195512,6 +195509,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||www.tellegrom.xyz^$all
 ||213.255.247.174^$all
 ||searchokay.com^$document
+||srvtrck.com^$document
 ||extappupdate.com^$all
 ||find.fnavigate-now.com^$document
 ||5.42.86.86^$all

@@ -1,6 +1,6 @@
 Stats:
-202429 entries added
-481 redundant entries removed  
-191671 domains extracted
+202427 entries added
+472 redundant entries removed  
+191664 domains extracted
 976 subdomains added
 14 filter lists processed successfully
