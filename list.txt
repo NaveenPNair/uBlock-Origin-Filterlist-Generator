@@ -199501,7 +199501,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||youtube.com/channel/UCszV4lSIfrZVwZE1YiANUzw^$document
 ||youtube.com/channel/UCWaneJzQcS5WhaaerEuSg1g^$document
 ||youtube.com/channel/UC8-4-iapLTjw-MUi72kaDiQ^$document
-||youtube.com/channel/UC3qrUm-HpLdin8q-IGQ4UMQ^$document
 ||youtube.com/channel/UCGUEvZCqa4a8S_n6UN1Vtuw^$document
 ||youtube.com/channel/UCd-l4COpGbWCxYddh6ZwLoQ^$document
 ||youtube.com/channel/UC2aUB8zP6YpfgNiy2-tNtYA^$document
@@ -199511,7 +199510,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||youtube.com/channel/UCY-mjAhqC7-Lkv0Qv5nS1yA^$document
 ||youtube.com/channel/UCRYvu6p4-T3RCyl7tgtfC_Q^$document
 ||youtube.com/channel/UCzSW21exQQ_6DJO0GjPr8Dw^$document
-||youtube.com/channel/UC4H0NSb0XAzRAT9NQ4h08jA^$document
 ||youtube.com/watch?v=4XsnniuVG3c^$document
 hanoiopentourism.com##[id*=comment-] > .comment-wrap:has-text(/DINOSONTECH ON INSTAGRAM/i)
 vixencrypto.com##.comment_content:has-text(/dinosontech on Instagram/i)
@@ -199666,7 +199664,7 @@ play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=".adblock."])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href*=adsblock])
 play.google.com#?#div[class$=" "] > div[class*=" "][jscontroller] > *:has([href$=".adblock"])
-||gyrovague.com^$all,domain=archive.*|~archive.org
+||gyrovague.com^$all,domain=archive.*|~archive.org|btdig.com
 ugetfix.com,sauguspc.lt,wyleczpc.pl,sichernpc.de,pcseguro.es#?#h2:has-text(/^Repair your Errors automatically$/i)
 majorgeeks.com#?#b:has(a[target^=reimage])
 bynarycodes.com#?#.panel:has(a[href*="scanutilities.com"])
