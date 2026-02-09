@@ -214507,6 +214507,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
 ||brewe.sh^$all
 ||minecraf.wiki^$document
+||protonwalletdesktop.com^$all
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
 $removeparam=yclid
 $removeparam=gclid
