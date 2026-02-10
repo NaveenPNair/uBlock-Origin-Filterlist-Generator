@@ -181452,6 +181452,7 @@ thelocal.at,thelocal.ch,thelocal.com,thelocal.de,thelocal.dk,thelocal.es,theloca
 ||memberstack.com/scripts/v*/memberstack.js$script,third-party
 policorner.ca##div.free-text,div.subscribe-box
 /wp-content/plugins/incognito_dectector/$script,~third-party
+||gyrovague.com$xmlhttprequest,third-party
 ||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||assets.guim.co.uk/assets/SignInGate*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
@@ -202010,6 +202011,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||furiousfar.com^$document,popup
 ||xml-v4.icdsoap-4.online^$all
 ||att-currently-$document,domain=weeblysite.com
+||actiwated.win^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
@@ -204933,6 +204935,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 /^https:\/\/usps.com-expres[a-zA-Z0-9]\.top\//$document
 ||brewe.sh^$all
 ||minecraf.wiki^$document
+||get.actiwated.win^$all
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
 $removeparam=yclid
 $removeparam=gclid
