@@ -216834,6 +216834,13 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||addons.newtabsearch.net^$doc
 ||telemechanism.cyou^$all
 ||resultsfastfind.com^$doc
+||snowvan.xyz^$all
+||kygens.xyz^$all
+||host11m.cfd^$doc
+||host15m.cfd^$doc
+||filehost09.sbs^$doc
+||sharehost06.sbs^$doc
+||getdwnloadss.com^$all
 ||unofficialtwrp.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidweblog.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
 ||androidgreek.com^$doc,domain=~had_not_updated_their_root_guides_to_reflect_a_b_partition_phones_as_of_2021.*
@@ -219287,6 +219294,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||furiousfar.com^$document,popup
 ||xml-v4.icdsoap-4.online^$all
 ||att-currently-$document,domain=weeblysite.com
+||cdn5.sharehost06.sbs^$document
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
@@ -220031,7 +220039,6 @@ $all,domain=goatmod.xyz|metriumoldeb.com
 ||binomo.broker^$document
 ||coinreq.com^$document
 ||uplevelrewards.com^$document
-||oasoomsa.top^$all
 ||fubsoupt.top^$all
 ||adblocked-supreme.net^$document
 ||w61.1piecemanga.com^$document
