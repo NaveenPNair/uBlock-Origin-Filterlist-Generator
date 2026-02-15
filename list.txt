@@ -207039,7 +207039,6 @@ $doc,ipaddress=100.20.13.49
 ||goldmesoil.live^$all,~inline-font
 $all,~inline-font,ipaddress=51.68.87.229
 ||51.68.87.229^$all,~inline-font
-||2022crucialcatch.store^$all,~inline-font
 ||adidascostarica.com^$all,~inline-font
 ||adulttoysale.top^$all,~inline-font
 ||aldoukshoes.com^$all,~inline-font
@@ -207184,7 +207183,6 @@ $all,~inline-font,ipaddress=51.68.87.229
 ||quiksilver-canada.com^$all,~inline-font
 ||quiksilver-southafrica.com^$all,~inline-font
 ||quiksilverfactoryoutlet.com^$all,~inline-font
-||quiksilveroutletusa.com^$all,~inline-font
 ||reebok-chile.com^$all,~inline-font
 ||reebok-romania.com^$all,~inline-font
 ||rolltide.shop^$all,~inline-font
@@ -217925,8 +217923,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||egscorp.net^$all
 ||eatablehelprut.com^$all
 ||curvyalpaca.cc^$third-party
-||zxbfm.ooumoughtcall.com^$all
-||ooumoughtcall.com^$document
 ||s2cp.xyz^$all
 ||4b34eusvcxsdublb6f.runoj.click^$all
 ||runoj.click^$all
@@ -218974,7 +218970,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||reykijnoac.com^$document
 ||freeco.xyz^$all
 ||aceelectricalny.com^$all
-||ouhastay.net^$all
 ||812138.com^$document
 ||dj-video.xyz^$document
 ||hj-video.xyz^$document
@@ -219932,7 +219927,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||clarksshoesnz.net^$document
 ||coccinellepolska.com^$document
 ||columbiashoesmalaysia.com^$document
-||converseberlin.de^$document
 ||converse-chile.cl^$document
 ||converseinespana.com^$document
 ||conversekuwait.com^$document
@@ -220551,7 +220545,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||opdomaines.space^$all
 ||softicoapps.com^$document
 ||static.imghst-de.com/*.png^$image
-||subsequentoven.info^$document
 ||bbobb.net^$all
 ||flamefolder.com^$document
 ||earnyourswag.com^$document
