@@ -203372,6 +203372,7 @@ $doc,ipaddress=100.20.13.49
 ||goldmesoil.live^$all,~inline-font
 $all,~inline-font,ipaddress=51.68.87.229
 ||51.68.87.229^$all,~inline-font
+||2022crucialcatch.store^$all,~inline-font
 ||adidascostarica.com^$all,~inline-font
 ||adulttoysale.top^$all,~inline-font
 ||aldoukshoes.com^$all,~inline-font
@@ -203516,6 +203517,7 @@ $all,~inline-font,ipaddress=51.68.87.229
 ||quiksilver-canada.com^$all,~inline-font
 ||quiksilver-southafrica.com^$all,~inline-font
 ||quiksilverfactoryoutlet.com^$all,~inline-font
+||quiksilveroutletusa.com^$all,~inline-font
 ||reebok-chile.com^$all,~inline-font
 ||reebok-romania.com^$all,~inline-font
 ||rolltide.shop^$all,~inline-font
@@ -215212,13 +215214,11 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||v3-dappradar.com^$document
 ||darkmodz-links.com^$all
 ||lonely.beauty^$document
-||gov.engdwpid.icu^$document
 ||Mobiilitiedot.org^$document
 ||ezplayclub.com^$document
 ||streambootest.ru^$document
 ||fish-lane.com^$all
 ||myhermes.atiylu.live^$document
-||mastadon-verify.id-83636.world^$all
 ||mastadon-verify.id-$document,domain=~mastodon.social
 ||getfiles.pro^$document
 ||mediafileslow.info^$document
@@ -215856,8 +215856,6 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||anyplacehere.me^$document
 ||errors.pro^$document
 ||stucktimeoutvexed.com^$document
-||SEXUS.ML^$all
-||c.dateperfectly.top^$all
 ||dateperfectly.top^$all
 ||geminifond.com^$all
 ||umbrellacorporation.id^$all
@@ -216153,7 +216151,6 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||altdentifiers.com^$all
 ||cyber-wizard.com^$all
 ||iboltcyberhacker.wixsite.com^$all
-||equiwarmpro.co^$document
 ||ekommmedia.com^$document
 ||qdyqdym.shop^$all
 ||america4internationalstudents.com^$document
