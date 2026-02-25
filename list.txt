@@ -220784,6 +220784,7 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||46.225.67.21^$all
 ||178.16.52.65^$all
 ||158.94.211.63^$all
+||cpanel-webmail-login-access$domain=pages.dev
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
