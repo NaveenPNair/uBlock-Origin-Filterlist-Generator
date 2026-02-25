@@ -226500,6 +226500,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@|wss://$removeparam
 @@||google.*/maps$doc,removeparam=utm_campaign
 @@/remote_interaction$doc,removeparam=ap_id
+@@/admin/object$doc,removeparam=ap_id
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
 ||brave.com^
