@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 26/02/2026
+! Last updated: 27/02/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -205661,6 +205661,11 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||178.16.52.65^$all
 ||158.94.211.63^$all
 ||cpanel-webmail-login-access$domain=pages.dev
+||qfinder-pro.com^$document
+||orayc.com^$document
+||todeskapp.com^$document
+||todesk.im^$document
+||to-desk.com.cn^$document
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
