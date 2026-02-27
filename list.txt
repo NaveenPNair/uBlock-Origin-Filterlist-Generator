@@ -187978,6 +187978,10 @@ valeursactuelles.com##+js(ra, class, div.qiota_reserve, stay)
 ||welt.de/variants-*.js$script,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
+worldeconomics.com##+js(rc, blurred, div.blurred, stay)
+worldeconomics.com##+js(rc, blurredImage, div.blurredImage, stay)
+worldeconomics.com##+js(rc, noscroll, body.noscroll, stay)
+worldeconomics.com##div#paywall,div.StickyFooter,div#scrollable
 ||ynet.co.il/*/article/*?rel=plus$inline-script
 ynet.co.il###yitwall:remove()
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##+js(rc, article__paragraph--blur, .article__paragraph--blur, stay)
