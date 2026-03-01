@@ -181579,6 +181579,8 @@ csmonitor.com##+js(set-local-storage-item, /^/, $remove$)
 csmonitor.com##.paywall
 cyclingnews.com##+js(rc, paywall-locker, div.paywall-locker)
 dailywire.com##+js(set-local-storage-item, article-gate-data, $remove$)
+dailywire.com##+js(ra, class, div.css-1lul109, stay)
+dailywire.com##div#payed-article-paywall
 denik.cz##+js(ra, class, div.paywall, stay)
 diepresse.com##+js(ra, class, div.premium-content.hide, stay)
 diepresse.com##div.paywall-container--locked
