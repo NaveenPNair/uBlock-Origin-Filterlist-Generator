@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 01/03/2026
+! Last updated: 02/03/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -181393,9 +181393,9 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 /www\.vogue\.co\.uk\/[-\w]+$/$script,~third-party
 ||voguebusiness.com/journey/compiler/build-*.js$script,~third-party
 voguebusiness.com##+js(cookie-remover, userId)
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
-.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
+adage.com,autonews.com,chicagobusiness.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
+adage.com,autonews.com,chicagobusiness.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
+.com/profiles/*/crain_pelcro_user.js$script,~third-party,domain=360dx.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|precisionmedicineonline.com
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
@@ -200986,6 +200986,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||t1.testname.me^$document
 ||adultgames.online^$document
 ||777ad-game.com.pk^$document
+||mineralt.io^$all
 ||phonespying.com^$all
 ||copy9.com^$document
 ||fonetracker.com^$document
@@ -201997,7 +201998,7 @@ $doc,removeparam=/^mtm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^_utm_.*$/i
 $removeparam=logTag,doc
 $removeparam=gclsrc,doc
-$doc,removeparam=smid,domain=~amazon.*|~opinion.no
+$doc,removeparam=smid,domain=~amazon.*|~clubassistant.com|~opinion.no|~swimphone.com
 $doc,removeparam=/^WT\..*$/i
 $doc,removeparam=/^WT_.*$/i
 $doc,removeparam=/^WTmc_.*$/i
