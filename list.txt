@@ -203364,6 +203364,7 @@ $doc,removeparam=sc_ichannel,domain=aws.eu|pages.awscloud.com
 $doc,removeparam=sc_icampaign,domain=aws.eu|pages.awscloud.com
 $doc,removeparam=sc_iplace,domain=aws.eu|pages.awscloud.com
 ||musescore.com^$doc,removeparam=feature
+$doc,removeparam=intid,domain=homedepot.*
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
