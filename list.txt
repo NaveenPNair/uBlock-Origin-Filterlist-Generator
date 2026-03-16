@@ -206855,6 +206855,7 @@ ref=theneedlenews.com$doc,removeparam=ref
 ref=thestack.technology$doc,removeparam=ref
 ||deezer.$removeparam=host
 ||deezer.$removeparam=/^utm_.*$/
+ref=blog.livekit.io$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
