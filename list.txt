@@ -205830,6 +205830,8 @@ ref=blog.livekit.io$doc,removeparam=ref
 ||duckduckgo.com/atb.js$doc,removeparam=v
 ||duckduckgo.com/atb.js$doc,removeparam=bv
 ||duckduckgo.com/atb.js$doc,removeparam=browser
+||github.com^$doc,removeparam=email_source
+||github.com^$doc,removeparam=email_token
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
