@@ -203428,7 +203428,7 @@ $removeparam=u1,domain=linksynergy.com|shop-links.co
 $removeparam=article_name,domain=shop-links.co
 $removeparam=article_url,domain=shop-links.co
 $removeparam=/^shared.*$/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
-$removeparam=origin,denyallow=platform.twitter.com,domain=archive.org|buzzfeed.com|buzzfeednews.com|drop.com|flaticon.com|nordstrom.com|norton.com|philips.*|symbolab.com|yle.fi|dressmann.com
+$removeparam=origin,denyallow=platform.twitter.com,domain=archive.org|buzzfeed.com|buzzfeednews.com|drop.com|flaticon.com|nordstrom.com|norton.com|philips.*|symbolab.com|yle.fi|dressmann.com|duck.ai
 $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|adtraction.com|tradedoubler.com
 $removeparam=epi2,domain=tradedoubler.com
 $removeparam=share,domain=hs.fi|oerproject.com
@@ -204708,6 +204708,7 @@ ref=blog.livekit.io$doc,removeparam=ref
 ||duckduckgo.com/atb.js$doc,removeparam=browser
 ||github.com^$doc,removeparam=email_source
 ||github.com^$doc,removeparam=email_token
+$doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficbook.net
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
