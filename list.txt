@@ -180493,6 +180493,7 @@ theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
 thelampmagazine.com##+js(ra, class, div.paywall-gradient)
 thelampmagazine.com##section.p-8
 thelogic.co##+js(cookie-remover, firstarticle)
+||thenation.com/wp-content/themes/*/js/paywall/main.js$script,~third-party
 ||thenewatlantis.com/*/thenewatlantis/js/gate.js$script,~third-party
 ||thenewatlantis.com/*/thenewatlantis/js/donate.js$script,~third-party
 thenewworld.co.uk##div[data-show-fade-on-noaccess],div[data-show-subs-blocked]
