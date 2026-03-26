@@ -14,28 +14,23 @@ jobs:
   mkcombo:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4.2.2  # Bumped for Node 24 support
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v5.3.0 # Bumped for Node 24 support
       with:
-        python-version: '3.x'
+        python-version: '3.12' # Using a specific stable version
     - name: Build
       run: |
-        echo Debugging output
-        uname
-        pip3 --version
-        pip3 list
-        python --version
-        which python
-        id
-        
-        echo make the list
+        echo "Updating dependencies..."
+        pip3 install --upgrade pip
         pip3 install requests publicsuffixlist
+        
+        echo "Generating aggregated filterlist..."
         python combo.py
     - name: Commit & Push
       run: |
         git config user.name "Update bot"
         git config user.email "updatebot@naveenpnair.github.io"
         git add .
-        git diff --staged --quiet || git commit -m "Update the combo list"
-        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
+        # Only commit if there are changes to avoid empty-commit errors
+        git diff --staged --quiet || (git commit -m "Update the combo list" && git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main)
