@@ -186088,10 +186088,9 @@ european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 dailymail.co.uk,mailonsunday.co.uk,thisismoney.co.uk##+js(rc, is-paywalled-article, body.is-paywalled-article)
 ||dailymail.co.uk/static/mol-adverts/$script
-||huffingtonpost.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
-huffingtonpost.it,lastampa.it##+js(cookie-remover, blaize_session)
-huffingtonpost.it,lastampa.it##aside#widgetDP,div[id^="adv"]
+lastampa.it##+js(cookie-remover, blaize_session)
+lastampa.it##aside#widgetDP,div[id^="adv"]
 ||scripts.repubblica.it/pw/pw.js$script,domain=italian.tech|moda.it
 italian.tech,moda.it##div#ph-paywall:remove()
 italian.tech,moda.it##+js(ra, style, div#article-body, stay)
