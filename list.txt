@@ -192394,7 +192394,6 @@ washingtonpost.com##[data-qa="interstitial-link-wrapper"]
 washingtonpost.com##[data-qa="newsletter"]
 washingtonpost.com##[data-qa="inline-subs-bg"]:upward(.hide-for-print)
 washingtonpost.com##+js(set, wp_pb.StaticMethods.parametrizeLinks.getRules, noopFunc)
-washingtonpost.com##+js(nano-stb, /Iris setup/, 6000)
 ||cloudfront.net/prod/cloudfrontVideoTracker.png
 /arc/subs/p.min.js$~third-party
 economist.com##.advert
