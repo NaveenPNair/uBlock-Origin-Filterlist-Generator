@@ -201660,6 +201660,8 @@ medina-gazette.com,chroniclet.com##.auth_provider_widget
 musicbusinessworldwide.com##.mb-article__body:style(display:inherit!important)
 hawaiitribune-herald.com##.single-login-box, #single-excerpt
 hawaiitribune-herald.com##.paywall:style(display:inherit!important)
+@@||piano.io/api/tinypass.min.js$script,domain=thepress.co.nz|thepost.co.nz|waikatotimes.co.nz
+thepress.co.nz,thepost.co.nz,waikatotimes.co.nz##[data-testid="ad-slot"]
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
