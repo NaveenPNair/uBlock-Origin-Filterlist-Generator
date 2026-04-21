@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 20/04/2026
+! Last updated: 21/04/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -191205,6 +191205,9 @@ hawaiitribune-herald.com##.single-login-box, #single-excerpt
 hawaiitribune-herald.com##.paywall:style(display:inherit!important)
 @@||piano.io/api/tinypass.min.js$script,domain=thepress.co.nz|thepost.co.nz|waikatotimes.co.nz
 thepress.co.nz,thepost.co.nz,waikatotimes.co.nz##[data-testid="ad-slot"]
+||adweek.com/wp-content/plugins/adw-zephr/
+adweek.com##+js(rpnt, script, /if \(!window.Zephr\)/, document.querySelector('.non-paywall').innerHTML = "<p>" + JSON.parse(document.querySelector('script[type="application/ld+json"]').innerText).sharedContent.articleBody.replaceAll("\n"\, "<p>");if (!window.Zephr), sedCount, 10)
+adweek.com##.paywall, .zephr-form-container, .aw-article-content+div[style*="gradient"]
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
