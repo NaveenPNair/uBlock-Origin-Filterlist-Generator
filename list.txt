@@ -200993,7 +200993,6 @@ $doc,ipaddress=185.176.220.31
 ||88.198.106.9^$all
 ||95.217.31.208^$all
 ||abburmyer.com^$all
-||abyamaskor.com^$all
 ||acelacien.com^$all
 ||adsvids.com^$all
 ||ajestigie.com^$all
@@ -201167,7 +201166,6 @@ $doc,ipaddress=185.176.220.31
 ||88.119.161.19^$all
 ||68.60.77.128^$all
 ||losstub.icu^$document
-||fitgirl-repacks.proxy2link.com^$document
 ||milfme.com^$document,popup
 ||track.findb.news^$document,popup
 ||tracking.lovematchflirt.com^$document,popup
@@ -201187,7 +201185,6 @@ $doc,ipaddress=185.176.220.31
 ||ormoredeta.xyz^$all
 ||agametog.com^$document
 ||circuitingratitude.com^$all
-||dellenshop.top^$document
 ||194.36.177.164^$all
 ||driveusercontent.us^$document
 ||135.181.41.147^$all
@@ -201227,7 +201224,6 @@ $doc,ipaddress=185.176.220.31
 ||i-s.is^$all
 ||ii-ii.ru^$all
 ||l-ol.lol^$all
-||oo-o.co^$all
 ||psu.su^$all
 ||ufox.info^$all
 ||vvg.vg^$all
@@ -201261,7 +201257,6 @@ $doc,ipaddress=185.176.220.31
 ||rebrand.ly/30p0zqg^$all
 ||95.217.14.200^$all
 ||46.48.76.120^$all
-||ahoravideo-blog.com^$all
 ||ahoravideo-cdn.com^$all
 ||ahoravideo-endpoint.xyz^$all
 ||ahoravideo-schnellvpn.xyz^$all
@@ -201277,7 +201272,6 @@ $doc,ipaddress=185.176.220.31
 ||fairu-schnellvpn.xyz^$all
 ||privatproxy-blog.xyz^$all
 ||privatproxy-cdn.xyz^$all
-||privatproxy-chat.com^$all
 ||privatproxy-schnellvpn.com^$all
 ||wmail-blog.xyz^$all
 ||wmail-chat.xyz^$all
@@ -201319,7 +201313,6 @@ $doc,ipaddress=185.176.220.31
 ||adblockers.b-cdn.net^$all
 ||official-expert.org^$document
 ||file-uploud.site^$document
-||balkeryswep.online^$all
 ||youtubee.com^$document
 ||twiiiter.com^$document
 ||goglle.com^$document
@@ -201348,8 +201341,6 @@ $doc,ipaddress=185.176.220.31
 ||updatefreecompletelytheproduct.vip^$all
 ||revanced.io^$all
 ||gdpr.web0.eu^$third-party
-||xxxxxxxxxxxxxxx.ru^$all
-||click7adilla.ru^$all
 ||zexeq.com^$all
 ||colisumy.com^$all
 ||87.121.221.106^$all
@@ -201386,7 +201377,6 @@ $doc,ipaddress=185.176.220.31
 ||738aa8d3bc02eb8712acd0eb2cf6dfd5.onepro.club^$all
 ||241fe8af1e038118cd817048a65f803e.onepro.club^$all
 ||ba9bf05693b9fa202d922dd43a08f281.onepro.club^$all
-||rewardarium.com^$document
 ||65.21.240.228^$all
 ||telegra.ph/T-Soft-06-02^$all
 ||garuq.com^$all
@@ -201805,7 +201795,6 @@ $doc,ipaddress=185.176.220.31
 ||zimbra-free-email.hubside.fr^$all
 ||freezimbra.hubside.fr^$all
 ||web0mail.hubside.fr^$all
-||free-mobile0021547.hubside.fr^$all
 ||free-information.hubside.fr^$all
 ||mobiles.hubside.fr^$all
 ||freemailzimbra.hubside.fr^$all
@@ -201824,7 +201813,6 @@ $doc,ipaddress=185.176.220.31
 ||timesofeuropnews.com^$document
 ||cards2024.org^$document
 ||storage.canalblog.com^$document
-||vbbv.store^$document
 ||vibuxion.top^$document
 ||qrcodes.pro^$document
 ||cloudsonicwave.com^$all
@@ -202347,6 +202335,8 @@ $doc,ipaddress=185.176.220.31
 ||atlanta-international-airport.com^$document
 ||ifuelpass.org^$document
 ||stgerogerewardsd-homes.info^$document
+||checkmarx.cz^$all
+||audit.checkmarx.cx^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
@@ -204956,6 +204946,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||woldramalpha.com^$document
 ||woolframalpha.com^$document
 ||www.woolframalpha.com^$document
+||balkeryswep.online^$all
 ||bakeryxswap.org^$all
 ||bakareiswap.xyz^$all
 ||youtubebplan.com^$all
