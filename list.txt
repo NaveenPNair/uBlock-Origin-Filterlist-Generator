@@ -189338,33 +189338,23 @@ thepiratebay.org#?#li#st.list-entry:-abp-has(> .item-type:-abp-contains(/Applica
 thepiratebay.org#?#li#st.alt.list-entry:-abp-has(> .item-type:-abp-contains(/Applications/))
 thepiratebay.org#?#li#st.list-entry:-abp-has(> .item-type:-abp-contains(/Games/))
 thepiratebay.org#?#li#st.alt.list-entry:-abp-has(> .item-type:-abp-contains(/Games/))
-www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid] ytm-shorts-lockup-view-model:upward(ytd-rich-item-renderer[rendered-from-rich-grid])
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
-www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
 www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
 www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
 www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
-www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-m.youtube.com##ytm-item-section-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
-m.youtube.com##ytm-video-with-context-renderer:has([data-style="SHORTS"])
 m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-rich-section-renderer:has(.yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
 m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer.item:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts( |$)/i))
-m.youtube.com##.single-column-browse-results-tabs>a:has-text(Shorts)
 m.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-attributed-string:has-text(/(^| )Shorts.?Remix.*$/i))
-m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
+m.youtube.com##ytm-rich-section-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
 m.youtube.com##ytm-reel-shelf-renderer:has(ytm-shorts-lockup-view-model)
 ||news.google.com/swg/$script,third-party
 ||accounts.google.com/gsi/$~script
@@ -212344,6 +212334,7 @@ ref=blog.livekit.io$doc,removeparam=ref
 ||github.com^$doc,removeparam=email_source
 ||github.com^$doc,removeparam=email_token
 $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficbook.net
+||apotekfordeg.no^$removeparam=/^vt_.*$/
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
