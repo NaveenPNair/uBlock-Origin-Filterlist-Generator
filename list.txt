@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 27/04/2026
+! Last updated: 28/04/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -187163,6 +187163,7 @@ legrandcontinent.eu##+js(rc, paywall|pw|softwall, body)
 lejdd.fr,parismatch.com,public.fr###poool-container,#poool-widget-content,#poool-widget,.forbidden
 lejdd.fr,parismatch.com,public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 lepoint.fr,lexpress.fr##+js(set, window.Fusion.globalContent.content_restrictions, {})
+/\.lequipe\.fr\/assets\/js\/.*[wW]all.+\.js/$script,~third-party
 ||livemint.com/lm-img/subscription/$script,~third-party
 livemint.com##+js(rc, paywall, div.paywall)
 livemint.com##div[class^="storyPaywall_paywallStory_"]:remove()
