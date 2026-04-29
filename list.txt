@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 28/04/2026
+! Last updated: 29/04/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -191493,11 +191493,11 @@ foxnews.com##.show-gate.gated-overlay.article-gating
 ||businessinsider.com/chunks/scripts/piano.
 ||businessinsider.com/chunks/scripts/components~paywall-
 ||businessinsider.com/ajax/render-component?path=paywall
-/zephr/*$1p,domain=nrc.nl|dailymail.co.uk|forbes.com|irishtimes.com|nysun.com|nzherald.co.nz|theglobeandmail.com|theatlantic.com
+/zephr/*$1p,domain=nrc.nl|dailymail.com|forbes.com|irishtimes.com|nysun.com|nzherald.co.nz|theglobeandmail.com|theatlantic.com
 ||newzware.com/zephr/
-dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody] *:nth-child(n+3),body.is-paywalled-article.mol-mobile .scrollable-content>article,body.is-paywalled-article.mol-mobile .scrollable-content>article *:nth-child(n+28):style(display:inherit!important)
-dailymail.co.uk##body.is-paywalled-article.mol-desktop div[itemprop=articleBody]::after:style(content:none!important)
-dailymail.co.uk##body.is-paywalled-article.mol-mobile .scrollable-content>article:style(padding-bottom:0!important)
+dailymail.com##body.is-paywalled-article.mol-desktop div[itemprop=articleBody] *:nth-child(n+3),body.is-paywalled-article.mol-mobile .scrollable-content>article,body.is-paywalled-article.mol-mobile .scrollable-content>article *:nth-child(n+28):style(display:inherit!important)
+dailymail.com##body.is-paywalled-article.mol-desktop div[itemprop=articleBody]::after:style(content:none!important)
+dailymail.com##body.is-paywalled-article.mol-mobile .scrollable-content>article:style(padding-bottom:0!important)
 cnn.com##body>[class*="reg-wall"]
 cnn.com##html,body:style(overflow:auto!important;position:initial!important)
 latercera.com##+js(set, Fusion.globalContent.content_restrictions, {})
@@ -208446,6 +208446,7 @@ $doc,ipaddress=185.176.220.31
 ||stgerogerewardsd-homes.info^$document
 ||checkmarx.cz^$all
 ||audit.checkmarx.cx^$all
+||pasticceriaeconomico.com^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
