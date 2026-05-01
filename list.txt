@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 30/04/2026
+! Last updated: 01/05/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -218539,7 +218539,7 @@ $removeparam=referer,doc,domain=bodykind.com|clink2.com|dlink2.com|nitter.net
 ||target.com^$removeparam=lnm
 ||target.com^$removeparam=lnk
 $removeparam=marketing_id
-$removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|nextdoor.com|qwant.com
+$removeparam=s,domain=greenhouse.io|mothership.sg|spreadprivacy.com|nextdoor.com|qwant.com|t.info.telus.com
 $doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 ||yandex.$removeparam=clid
 $removeparam=cpa-perf
@@ -219461,6 +219461,7 @@ ref=blog.livekit.io$doc,removeparam=ref
 ||github.com^$doc,removeparam=email_token
 $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficbook.net
 ||apotekfordeg.no^$removeparam=/^vt_.*$/
+||publicmobile.ca^$doc,removeparam=p_id
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
