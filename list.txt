@@ -230052,6 +230052,12 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||poundrynlowey.com^$all
 ||cifareh.click^$all
 ||billeteriecelinedion.com^$all
+||grokvarum.com^$all
+||groktronum.com^$all
+||xaidash.app^$all
+||blogcryptoslate.com^$all
+||blogfxempire.com^$all
+||cointelegraphfeed.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||totaladblock.com^
