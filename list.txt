@@ -210812,6 +210812,7 @@ ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 zdnet.com##.c-shortcodePinbox, .c-shortcodePinbox-carousel, .c-shortcodePinbox-textList, .g-outer-spacing-bottom-large.c-globalBreakingNews, .c-listingVertical, .related-stories.module, .alignRight.relatedContent, .breaking-news-container, .alignNone.relatedContent
 zoosk.com##.article__related, .newsletter
 ||www.web-hosting.net.my/banner$image
+imgur.com##.Sticky.Top,.BottomRecirc
 -push-notifications/$script
 ||cdn.carrotquest.app^$3p
 ||cdn.pn.vg^$3p
