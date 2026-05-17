@@ -223935,6 +223935,8 @@ $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficb
 ||youtube.com/shorts/$doc,removeparam=si
 ||youtube.com/@$doc,removeparam=si
 ||youtube.com/post/$doc,removeparam=si
+||youtube.com/live/$doc,removeparam=si
+||youtube.com/live/$doc,removeparam=is
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
