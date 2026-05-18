@@ -205591,7 +205591,7 @@ axios.com##+js(ra, style, html[style], stay)
 bhaskar.com##div.paywallBlockedContent~div:remove()
 bhaskar.com##article div:empty
 bhaskar.com##+js(ra, class, div.paywallBlockedContent, stay)
-/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,~third-party
+||bizjournals.com/*.html?rel=plus$inline-script
 ||bwbx.io/s3/fence/fortress-client/$script,third-party,domain=bloomberg.com
 ||bloombergadria.com/*/news$inline-script
 bloombergadria.com##+js(ra, style, article.single-news[style], stay)
