@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 11/06/2026
+! Last updated: 12/06/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -234875,6 +234875,41 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||yxfi-defender.pro^$all
 ||gamerdenz.com^$document
 utm_source=PWNgames$document,domain=opera.com
+||findyourmilf.agency^$all
+||dreamdates-spots.com^$all
+||bangzone.top^$all
+||naughtyfix.com^$all
+||lovehorizon.life^$all
+||secretloversnearby.com^$all
+||nearbysinglesfinder.com^$all
+||myflirtingneighbor.com^$all
+||americanmatureflirt.com^$all
+||diskretflirt.com^$all
+||secretflirtsnearby.com^$all
+||neighborswhoplay.com^$all
+||clickncontact.com^$all
+||sverigeflirten.com^$all
+||otrohetsportalen.com^$all
+||intimmatch.com^$all
+||mogenfling.com^$all
+||flirtamedmig.com^$all
+||grannflirten.com^$all
+||minaflirts.com^$all
+||maturenextdoor.com^$all
+||nearbyflirtfinder.com^$all
+||yournearbyfling.com^$all
+||chemistrynearby.com^$all
+||yournearbycrush.com^$all
+||sneakyneighbors.com^$all
+||womenroundthecorner.com^$all
+||twomance.com^$all
+||flirttactic.com^$all
+||neighborswithsecrets.com^$all
+||sxmessengers.com^$all
+||localswithsecrets.com^$all
+||flirtingneighbors.com^$all
+||trefferchat.com^$all
+||agreementcadence.com^$all
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
