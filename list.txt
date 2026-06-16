@@ -260538,6 +260538,7 @@ $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficb
 ||youtube.com/post/$doc,removeparam=si
 ||youtube.com/live/$doc,removeparam=si
 ||youtube.com/live/$doc,removeparam=is
+||youtu.be^$doc,removeparam=is
 ||donmai.us^$removeparam=z
 ||pcoptimum.ca^$doc,removeparam=moeq
 ||userbenchmark.com^$removeparam=redirFrom
