@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 10/07/2026
+! Last updated: 11/07/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -252326,6 +252326,7 @@ $popup,third-party,denyallow=trbbt.net|turbodownload.net,domain=turbobit.net
 ||answhmflj.blogspot.com^$all
 ||humanverify.co.in^$all
 ||answwgieq.blogspot.com^$all
+||gowy-adguard.pro^$all
 ||blastnew.live^$all
 ||poundrynlowey.com^$all
 ||cifareh.click^$all
