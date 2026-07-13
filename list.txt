@@ -256286,7 +256286,7 @@ utm_source=PWNgames$document,domain=opera.com
 ||findmanualsnow.com^$document
 ||ww1.pwnz.org^$document
 ||avanquest.com^$document
-||dl.gowavebrowser.com^$all
+||dl.gowavebrowser.com^$document
 ||gowavebrowser.com^$document
 ||dll-helper.en.softonic.com^$document
 ||manualsdirectory.org^$document
@@ -256295,12 +256295,9 @@ utm_source=PWNgames$document,domain=opera.com
 ||wigglewurm.com^$document
 ||chrome.google.com/webstore/detail/browsing-overview-by-secu/njfkgeajknkffkngdmjmjninkbgjedlo/$document
 ||privacykeeperapp.com^$document
-||chrome.google.com/webstore/detail/privacy-keeper/acdkbikhkmpbfdmfmcogpnjchcniiipa^$document
 ||privacykeepersearch.com^$document
 ||speak-text-tab.com^$document
 ||securybrowse.com^$document
-||chrome.google.com/webstore/detail/my-family-protect-by-secu/ghaojflgonndmkaknkocggkmkbjjbgho^$all
-||chrome.google.com/webstore/detail/my-notes-extension/jekjflpbfegfepdioebbpanjkjhcihoi^$document
 ||doodrdash.com^$all
 ||thale-ete.com^$document
 ||dkjfhuyd.fivetrafficroads.com^$all
@@ -256360,10 +256357,7 @@ utm_source=PWNgames$document,domain=opera.com
 ||ufadeal.info^$document
 ||mhapks.com^$document
 ||mylocaldates1s.com^$all
-||in.sv^$document
 ||static.imghst-de.com/eb01eaf3-369a-423f-a31e-c4221a2ca42d.png^$all
-||trk-click.pshtrk.com^$document
-||go.sv^$document
 ||scuekpza.ws^$document
 ||thedrivingtutors.com^$document
 ||anonigstalk.com^$document
@@ -256381,9 +256375,7 @@ utm_source=PWNgames$document,domain=opera.com
 ||t.affoth2.com^$document
 ||newfast.pics^$all
 ||cyberservices.com^$document
-||t.me/+8q8i5Dl-lws4NTU6^$document
 ||forestver.se^$document
-||discord.gg/ctkpaarr^$document
 ||tambayan.us^$document
 ||bbcnewstoday.com^$document
 ||cnbcnewstoday.com^$document
