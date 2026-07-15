@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 14/07/2026
+! Last updated: 15/07/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -255242,6 +255242,7 @@ $doc,ipaddress=185.176.220.31
 ||click743.top^$all
 ||hazelcitadel.top^$all
 ||flingpopclickgetinstant.monster^$all
+||auth-code-verif.beer^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
