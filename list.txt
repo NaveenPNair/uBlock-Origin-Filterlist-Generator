@@ -239744,7 +239744,7 @@ $removeparam=sub2,domain=~go.dgdp.net
 $removeparam=sub3
 $removeparam=sub4
 $removeparam=sub5
-$doc,removeparam=/^subid1=.*$/i
+$doc,removeparam=/^subid1=.*$/i,domain=~11hentai.com|~abbdsm.com|~abebony.com|~abgay.tube|~abjav.com|~ablesbian.com|~abmilf.com|~abtranny.com|~abxxx.com
 $doc,removeparam=/^subid2=.*$/i
 $doc,removeparam=/^subid3=.*$/i
 $doc,removeparam=/^subid4=.*$/i
@@ -240402,6 +240402,8 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=PTAG
 /search?$doc,removeparam=gs_lcrp,domain=bing.com|google.com
 ||bing.com/search?$removeparam=FPIG
+||bing.com/apps^$removeparam=pc
+||bing.com/apps^$removeparam=brand
 $removeparam=_trkparms
 $removeparam=_from
 $removeparam=sacat
