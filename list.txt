@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 02/08/2026
+! Last updated: 03/08/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -217118,6 +217118,7 @@ the-dots.com##[class^=ContentPaywall]
 twitch.tv###twilight-sticky-footer-root
 pinterest.*##div[id$=unauth-container] div[data-test-id=pin-closeup-image] > div[style^="cursor: pointer;"]
 pinterest.com##div[style^="opacity:1;"] + div[style="bottom:0;z-index:0"]
+pinterest.*##[data-test-id^=fullPageSignupModal]
 douyin.com###summon-sdk-style + div:not([class], [id])
 douyin.com##script[src*=websdk] + div:not([class], [id])
 /tncms/api/access.js|$script,domain=westernstandard.com
