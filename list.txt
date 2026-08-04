@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 03/08/2026
+! Last updated: 04/08/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -243601,7 +243601,7 @@ $removeparam=_1lr
 ||bookdepository.com^$removeparam=sr
 $removeparam=ymid
 ^z=*&var=$removeparam=var,doc
-$removeparam=via,domain=sincode.ai|skillshare.com|thedailybeast.com
+$removeparam=via,domain=sincode.ai|skillshare.com|thedailybeast.com|raycast.com
 $removeparam=rm,domain=jackjones.com|jjxx.com|mamalicious.com|only.com|onlyandsons.com|veromoda.com
 $removeparam=ad_sub,domain=homo.xxx
 ||ilo.org^$removeparam=ssSourceSiteId
