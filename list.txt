@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 09/08/2026
+! Last updated: 10/08/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -239966,6 +239966,7 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.com/search?$removeparam=FPIG
 ||bing.com/apps^$removeparam=pc
 ||bing.com/apps^$removeparam=brand
+$doc,removeparam=entrypoint,domain=bing.com
 $removeparam=_trkparms
 $removeparam=_from
 $removeparam=sacat
@@ -241475,7 +241476,6 @@ ref=news.risky.biz$doc,removeparam=ref
 ||www.roblox.com^$removeparam=gameSearchSessionInfo
 ||www.roblox.com^$removeparam=treatmentType
 $doc,removeparam=ucid,domain=unicredit.it|steampowered.com
-$doc,removeparam=entrypoint,domain=bing.com
 ||sky.it^$doc,removeparam=zoneid
 $doc,removeparam=cnt,domain=lastampa.it|ilsecoloxix.it|huffingtonpost.*|themeditelegraph.com|ilgusto.it|italian.tech
 $doc,removeparam=esrc,domain=arstechnica.com|newyorker.com|wired.com
@@ -241718,6 +241718,7 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||loan.fairstone.ca^$doc,removeparam=jumpsource
 ||cricut.$removeparam=visitorId
 ||sonarsource.com^$doc,removeparam=tidelift
+||msn.com^$removeparam=bv
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
