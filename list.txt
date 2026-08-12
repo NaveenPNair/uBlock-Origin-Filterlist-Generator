@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 11/08/2026
+! Last updated: 12/08/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -237603,6 +237603,20 @@ utm_source=PWNgames$document,domain=opera.com
 ||hellomilfs.com^$document
 ||joycroft.com^$document
 ||cozybond-club.com^$all
+||rocknrolladate.com^$document
+||lovelyuas.com^$document
+||datingukrainians.com^$document
+||crocodate.com^$document
+||dateukrainewoman.com^$document
+||loungedate.com^$document
+||datesingleukrainian.com^$document
+||smalltalkdating.com^$document
+||engaginglover.org^$document
+||justgrannies.com^$document
+||milfsflirt.com^$document
+||secretloversclub.com^$document
+||icupid.com^$document
+||transbabes.com^$document
 ||ssprotectltd.com^$all
 ||protected-net.breezy.hr^$document
 ||34.117.171.15^$document
