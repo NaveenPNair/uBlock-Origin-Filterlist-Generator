@@ -241735,6 +241735,7 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||cricut.$removeparam=visitorId
 ||sonarsource.com^$doc,removeparam=tidelift
 ||msn.com^$removeparam=bv
+||store.epicgames.com^$doc,removeparam=epic_creator_id
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
