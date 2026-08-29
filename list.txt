@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 28/08/2026
+! Last updated: 29/08/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -240927,13 +240927,6 @@ $all,ipaddress=77.220.214.153
 ||69.172.200.185^$all
 ||77.220.214.153^$all
 google.*##div[data-attrid^="images "]:has-text(/, [1-9][1-46-9]% OF{2}/)
-||googleapis.com/nwfotrac^$all
-||googleapis.com/firsttimesolo^$all
-||googleapis.com/trjhrt3j1erh2fghrth^$all
-||googleapis.com/realizingcrasis^$all
-||googleapis.com/deasastercreations^$all
-||googleapis.com/alphafemale^$all
-||googleapis.com/beastlyendeavors^$all
 ||vastila.com^$all
 ||wp3.xyz^$all
 tumblr.com##div[data-id][tabindex="-1"]:has(a[href^="https://href.li/?https://bit.ly/"])
@@ -242780,12 +242773,6 @@ $all,ipaddress=2600:3c06::f03c:95ff:fed9:ce5e
 $all,ipaddress=2600:3c06::f03c:95ff:fedc:7282
 $all,ipaddress=35.71.155.166
 ||tg-drive-bx4f.onrender.com^$all
-||austinpoolservices.com^$all
-||desernk.me^$all
-||qed.uk.com^$all
-/^(.*[/@])?questionprov\d{5,6}\.com(/.*)?$/$all
-||199.168.185.4^$all
-$all,ipaddress=199.168.185.4
 ||1tag.ai^$all
 ||adsbuyclick.com^$all
 ||bidforclicks.com^$all
@@ -243562,6 +243549,19 @@ google.*###rso > div[class]:has(h3:has-text(/^.*(H\ow\st\o|fre{2})\s(\instal{2}|
 ||watchterm.com^$doc
 ||185.176.220.31^$doc
 $doc,ipaddress=185.176.220.31
+||googleapis.com/nwfotrac^$all
+||googleapis.com/firsttimesolo^$all
+||googleapis.com/trjhrt3j1erh2fghrth^$all
+||googleapis.com/realizingcrasis^$all
+||googleapis.com/deasastercreations^$all
+||googleapis.com/alphafemale^$all
+||googleapis.com/beastlyendeavors^$all
+||austinpoolservices.com^$all
+||desernk.me^$all
+||qed.uk.com^$all
+/^(.*[/@])?questionprov\d{5,6}\.com(/.*)?$/$all
+||199.168.185.4^$all
+$all,ipaddress=199.168.185.4
 ||cprapid.com^$all
 ||discord*.gifts^$all
 ||discord-give.$all
