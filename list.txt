@@ -250643,6 +250643,9 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||store.epicgames.com^$doc,removeparam=epic_creator_id
 ||compshare.cn^$doc,removeparam=ytag
 ||medal.tv^$doc,removeparam=invite
+||canadapost-postescanada.ca^$doc,removeparam=abid
+||canadapost-postescanada.ca^$doc,removeparam=bid
+||canadapost-postescanada.ca^$doc,removeparam=rid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
