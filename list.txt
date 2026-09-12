@@ -222771,6 +222771,9 @@ cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-onl
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"], stay)
 bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##[subscriptions-section="content-not-granted"]
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(rc, nmgp, div.article-page .nmgp, stay)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(ra, hidden, div.article-page [hidden], stay)
+businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##div.modal,[id*='wall'],section.wall-guard,div.spinner
 staradvertiser.com##div.fade
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style], stay)
 staradvertiser.com##+js(rc, overflow-hidden, body.overflow-hidden, stay)
