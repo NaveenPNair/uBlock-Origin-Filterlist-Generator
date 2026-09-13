@@ -247646,6 +247646,7 @@ $doc,removeparam=sca_upv,domain=www.google.*|ipv6.google.com
 ||workspace.google.com^$removeparam=from
 @@://www.google.*/maps^$removeparam=utm_campaign
 @@://ipv6.google.com/maps^$removeparam=utm_campaign
+||support.google.com^$doc,removeparam=ctx
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
 $removeparam=u_code
@@ -248221,8 +248222,8 @@ $removeparam=_ref,domain=fanatics.com|nhl.com
 ||xg4ken.com^$removeparam=kpid
 ||xg4ken.com^$removeparam=criteriaid
 ||xg4ken.com^$removeparam=locphy
-||macys.com^$removeparam=trackingid
-$removeparam=/^m_.*$/,domain=macys.com|macysinc.com
+$doc,removeparam=trackingid,domain=adobe.com|macys.com
+$doc,removeparam=/^m_.*$/,domain=macys.com|macysinc.com
 $removeparam=CAGPSPN
 ||wsj.com^$removeparam=inttrackingcode
 ||bindright.com^$removeparam=camp_id
@@ -249254,6 +249255,7 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||canadapost-postescanada.ca^$doc,removeparam=bid
 ||canadapost-postescanada.ca^$doc,removeparam=rid
 ||spotfund.com^$doc,removeparam=SFID
+||quora.com^$doc,removeparam=qv_src
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
