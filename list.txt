@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 13/09/2026
+! Last updated: 14/09/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -247644,8 +247644,8 @@ $doc,removeparam=sca_upv,domain=www.google.*|ipv6.google.com
 ://www.google.$removeparam=ntc
 ://ipv6.google.com^$removeparam=ntc
 ||workspace.google.com^$removeparam=from
-@@://www.google.*/maps^$removeparam=utm_campaign
-@@://ipv6.google.com/maps^$removeparam=utm_campaign
+@@://www.google.*/maps^$doc,removeparam=/^\??utm_.*$/i
+@@://ipv6.google.com/maps^$doc,removeparam=/^\??utm_.*$/i
 ||support.google.com^$doc,removeparam=ctx
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
@@ -249256,6 +249256,15 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||canadapost-postescanada.ca^$doc,removeparam=rid
 ||spotfund.com^$doc,removeparam=SFID
 ||quora.com^$doc,removeparam=qv_src
+$doc,removeparam=CLRTags,domain=microsoft.com|windows.com
+||americanexpress.com^$doc,removeparam=inav
+||ecoflow.com^$doc,removeparam=sc_src
+||ecoflow.com^$doc,removeparam=sc_lid
+||ecoflow.com^$doc,removeparam=sc_llid
+||adobe.com^$doc,removeparam=correlationId
+||ck12.org^$doc,removeparam=_mid
+||ck12.org^$doc,removeparam=_eid
+||getquip.com^$doc,removeparam=syclid
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -249288,7 +249297,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@/search.php$doc,removeparam=sid
 @@/search-redirection$doc,removeparam,domain=audible.*
 @@|wss://$removeparam
-@@||google.*/maps$doc,removeparam=utm_campaign
 @@/remote_interaction$doc,removeparam=ap_id
 @@/admin/object$doc,removeparam=ap_id
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
