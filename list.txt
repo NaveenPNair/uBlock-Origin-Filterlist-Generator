@@ -254919,6 +254919,7 @@ $doc,removeparam=sca_upv,domain=www.google.*|ipv6.google.com
 @@://www.google.*/maps^$doc,removeparam=/^\??utm_.*$/i
 @@://ipv6.google.com/maps^$doc,removeparam=/^\??utm_.*$/i
 ||support.google.com^$doc,removeparam=ctx
+||google.com/maps$doc,removeparam=entry
 ||tiktok.com^$removeparam=_r
 $removeparam=share_ab_group
 $removeparam=u_code
@@ -255185,7 +255186,7 @@ $removeparam=report_recomm_player
 ^via=toolbar^$removeparam=via,domain=user.qzone.qq.com
 $removeparam=app,domain=tiktok.com|music.apple.*
 $removeparam=c,doc,domain=announcements.bybit.com|appsflyer.com|farfetch.com|glami.cz|hepsiburada.com|norton.com|onelink.me|shopee.*|tiktok.com|instabox.io
-$doc,removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|reddit.app.link|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|t.me|twitter.com|ubereats.com|x.com|youtube.com|235.190.94.206|206.94.190.35.bc.googleusercontent.com
+$doc,removeparam=campaign,domain=1sol.io|bdsmx.tube|blue-tomato.com|bybit.com|coinpanel.com|discord.*|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|mrgay.tube|outnorth.fi|peterhahn.*|reddit.app.link|runnode.com|scmp.com|shopee.*|sitepoint.com|sportler.com|support.squarespace.com|t.me|twitter.com|ubereats.com|x.com|youtube.com|235.190.94.206|206.94.190.35.bc.googleusercontent.com
 $removeparam=/^pf_rd_.*$/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
 $removeparam=Source,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com|evga.com
 $removeparam=version,domain=mp.weixin.qq.com|us.norton.com
@@ -255503,7 +255504,7 @@ $removeparam=CAGPSPN
 ||lendgo.com^$removeparam=apr
 $removeparam=rt,domain=lendgo.com|bilibili.com
 ||lendgo.com^$removeparam=lt
-$removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
+$doc,removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com
 $removeparam=referaldomain,domain=microcenter.com
 $removeparam=web,domain=microcenter.com|tomtop.com
 ||unieuro.it^$removeparam=dedup
@@ -256537,6 +256538,12 @@ $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
 ||ck12.org^$doc,removeparam=_mid
 ||ck12.org^$doc,removeparam=_eid
 ||getquip.com^$doc,removeparam=syclid
+||support.squarespace.com^$doc,removeparam=subcampaign
+||qobuz.com^$doc,removeparam=qbzc
+||qobuz.com^$doc,removeparam=qbzs
+||weather.com^$doc,removeparam=aw_campaign
+||weather.com^$doc,removeparam=Campaign_Name
+||weather.com^$doc,removeparam=lctg
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
