@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 19/09/2026
+! Last updated: 20/09/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -254835,6 +254835,7 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=igsi
 ||instagram.com^$doc,removeparam=stkn
 ||instagram.com^$doc,removeparam=click_source
+||instagram.com^$doc,removeparam=ndid
 $removeparam=cp_ksver
 $removeparam=biw
 $removeparam=bih
@@ -256544,10 +256545,10 @@ $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
 ||qobuz.com^$doc,removeparam=qbzs
 ||weather.com^$doc,removeparam=aw_campaign
 ||weather.com^$doc,removeparam=Campaign_Name
-||weather.com^$doc,removeparam=lctg
+$doc,removeparam=lctg,domain=bleacherreport.com|weather.com
 $doc,removeparam=rilt,domain=shutterfly.com|shutterflyinc.com
 $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
-||weather.com^$doc,removeparam=enc_em
+$doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
 ||cnn.com^$doc,removeparam=Profile
 ||microsoft.com^$doc,removeparam=UID
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
