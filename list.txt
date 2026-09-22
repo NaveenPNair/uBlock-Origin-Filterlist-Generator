@@ -247534,7 +247534,6 @@ $all,ipaddress=199.168.185.4
 ||getartscrafts.com^$document
 ||mydigitalgadgets.com^$document
 ||kittencutey.com^$document
-||rustdesk.co.nz^$document
 ||mediafire.com/folder/zxpc2sootspqf/Comi_Co^$all
 ||83.217.208.37^$all
 ||ruthiekresal.za.com^$document
@@ -252657,6 +252656,7 @@ play.google.com##div.mpg5gc.ImZGtf:has-text(/PC Protect/i):has-text(/Protected.n
 ||steampowered.cn.com^$document
 ||costssco.com^$all
 ||zippyshare.day^$document
+||rustdesk.co.nz^$document
 ||storecommuinityworkshop.com^$all
 ||steam.storecommuinityworkshop.com^$all
 ||staemcomnnunity.com^$all
@@ -254377,7 +254377,7 @@ $removeparam=publisher_id,domain=t-mobile.com|udemy.com
 ||xbox.com^$removeparam=xr
 ||deepdiscount.com^$removeparam=bid
 $removeparam=medium,domain=1sol.io|bybit.com|coinpanel.com|deepdiscount.com|discord.*|docs.google.com|docsend.com|eonline.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|ngx.me|outnorth.fi|runnode.com|t.me|twitter.com|xd.wayin.com|x.com|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com
-$removeparam=rid,domain=giphy.com
+$doc,removeparam=rid,domain=apple.com|giphy.com
 ||rightmove.co.uk^$removeparam=csg
 $removeparam=ServiceType,domain=cnet.*|gamespot.com
 $removeparam=UniqueID,domain=cnet.*|gamespot.com
