@@ -245921,14 +245921,12 @@ $all,ipaddress=64.190.63.*
 $all,ipaddress=199.191.50.*
 ||michaelrinderle.com^
 ||xdelta.org^
-||23.48.203.140^
 ||3.33.130.190^
 ||[2a02:26f0:1700:11::b856:6790]^
 /^(.*://)?204\.11\.56\.\d{1,3}(/.*)?$/$all
 /^(.*://)?208\.91\.197\.\d{1,3}(/.*)?$/$all
 $all,ipaddress=204.11.56.*
 $all,ipaddress=208.91.197.*
-$ipaddress=23.48.203.140
 $ipaddress=2a02:26f0:1700:11::b856:6790
 $ipaddress=3.33.130.190
 ||grokvarum.com^$all
