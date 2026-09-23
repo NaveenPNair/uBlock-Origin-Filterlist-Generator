@@ -253841,7 +253841,7 @@ $removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
 ||ssl-images-amazon.com^$removeparam=xcp
 ||bing.com/?$removeparam=/^form=.*$/i
 ||bing.$removeparam=sp
-$removeparam=sc,doc,domain=bing.com|qvc.com
+$removeparam=sc,doc,domain=bing.com|qvc.com|startpage.com
 $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=qs
 ||bing.$removeparam=PC
