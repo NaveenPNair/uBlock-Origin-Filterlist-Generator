@@ -254238,6 +254238,7 @@ $doc,removeparam=optiCID,domain=facebook.com|instagram.com|staples.com|tiktok.co
 ||wayfair.com^$doc,removeparam=emlid
 ||wayfair.com^$doc,removeparam=maiid
 ||wayfair.com^$doc,removeparam=mdlid
+||omio.com^$removeparam=landing_referrer
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
