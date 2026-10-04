@@ -220270,6 +220270,9 @@ $doc,removeparam=optiCID,domain=facebook.com|instagram.com|staples.com|tiktok.co
 ||bestbuy.com^$doc,removeparam=commcode
 ||bestbuy.com^$doc,removeparam=eut
 ||www.thestack.technology^$doc,removeparam=m
+||sears.com^$doc,removeparam=trk_link
+||sears.com^$doc,removeparam=guid
+||sears.com^$doc,removeparam=eKey
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
@@ -220304,7 +220307,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@|wss://$removeparam
 @@/remote_interaction$doc,removeparam=ap_id
 @@/admin/object$doc,removeparam=ap_id
-@@||thepointsguy.com/preference-center/$doc,removeparam=utm_usr
+@@||thepointsguy.com/preference-center/$doc,removeparam=/^\??utm_.*$/i
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 
 ||brave.com^
