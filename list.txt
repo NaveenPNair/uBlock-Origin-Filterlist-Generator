@@ -233762,6 +233762,12 @@ $all,ipaddress=213.227.149.211
 ||199.59.243.222^$doc
 ||213.227.149.208^$all
 ||213.227.149.211^$all
+||redddit.com^$all
+||redit.com^$all
+||reditt.com^$all
+||reddtt.com^$all
+||reddtit.com^$all
+||mirappe.com^$all
 ||ortrun-adi.com^$all
 ||roamingclicks.com^$all
 $all,ipaddress=144.76.0.242
@@ -241545,7 +241551,7 @@ $all,ipaddress=94.156.232.201
 ||43.157.46.83^$all
 ||43.164.196.209^$all
 ||88.255.216.16^$all
-/((https?|tcp|iquic)://)?204\.194\.54\.\d{1,3}([:/].*)?$/$all
+/^((https?|tcp|iquic)://)?204\.194\.54\.\d{1,3}([:/].*)?$/$all
 $all,ipaddress=43.157.122.86
 $all,ipaddress=43.157.46.83
 $all,ipaddress=43.164.196.209
@@ -241792,6 +241798,7 @@ $all,ipaddress=2604:2dc0:104:da00::
 ||13.140.171.211^$all
 $all,ipaddress=103.29.182.53
 $all,ipaddress=13.140.171.211
+$all,ipaddress=146.19.248.143
 ||downloadprovider.me^$all
 toorgle.net##.join
 ||cash93.com^$all
