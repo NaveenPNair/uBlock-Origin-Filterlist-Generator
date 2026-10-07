@@ -225549,9 +225549,9 @@ ref=sqliteviewer.app$doc,removeparam=ref
 ||quora.com^$doc,removeparam=qv_src
 $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
 ||americanexpress.com^$doc,removeparam=inav
-$doc,removeparam=sc_src,domain=ecoflow.com|eufymake.com
-$doc,removeparam=sc_lid,domain=ecoflow.com|eufymake.com
-$doc,removeparam=sc_llid,domain=ecoflow.com|eufymake.com
+$doc,removeparam=sc_src,domain=ecoflow.com|eufymake.com|newbalance.com
+$doc,removeparam=sc_lid,domain=ecoflow.com|eufymake.com|newbalance.com
+$doc,removeparam=sc_llid,domain=ecoflow.com|eufymake.com|newbalance.com
 $doc,removeparam=correlationId,domain=adobe.com|costco.com
 ||ck12.org^$doc,removeparam=_mid
 ||ck12.org^$doc,removeparam=_eid
