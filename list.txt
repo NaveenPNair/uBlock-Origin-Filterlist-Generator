@@ -216045,6 +216045,7 @@ $all,ipaddress=199.168.185.4
 ||flingpopclickgetinstant.monster^$all
 ||auth-code-check.info^$all
 ||auth-code-verif.beer^$all
+||sonicflownetwork.cfd^$all
 ||quatrefeuillepolonaise.xyz^$all
 ||captcharesolving-universe.com^$all
 ||catnip.de^$all
@@ -221964,6 +221965,8 @@ $doc,removeparam=optiCID,domain=facebook.com|instagram.com|staples.com|tiktok.co
 ||daraz.com.bd^$doc,removeparam=priceCompare
 ref=macapp.supply$doc,removeparam=ref
 ||verizon.com^$doc,removeparam=CUHID
+||verizon.com^$doc,removeparam=EMHID
+||verizon.com^$doc,removeparam=BID
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
