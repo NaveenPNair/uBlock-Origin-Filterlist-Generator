@@ -193212,6 +193212,8 @@ eastwest.eu##+js(rc, paywall, .paywall, stay)
 eastwest.eu###testo_articolo > p, #testo_articolo > h3
 eastwest.eu##.offerta_abbonamenti
 ||apw.economictimes.indiatimes.com^$xmlhttprequest,~third-party
+||economist.com/latest/wall-ui.js$script,~third-party
+economist.com##html,body:style(overflow: visible !important;)
 ||editorialedomani.it/pelcro.js$script,~third-party
 elespanol.com##+js(rc, content-not-granted-paywall, div.content-not-granted-paywall, stay)
 elespanol.com##div.full-suscriptor-container
@@ -193656,8 +193658,6 @@ dasinvestment.com##div#paywall
 divisare.com##div.blocker
 divisare.com##+js(ra, style, body[style], stay)
 dominionpost.com##+js(rc, entry-content, article > div.entry-content, stay)
-||economist.com/latest/wall-ui.js$script,~third-party
-economist.com##html,body:style(overflow: visible !important;)
 ||gstatic.com/firebasejs/*/firebase-auth-compat.js$script,domain=eleconomista.com.ar
 elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style], stay)
 elfinancierocr.com##div.post
@@ -218095,6 +218095,16 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=click_source
 ||instagram.com^$doc,removeparam=ndid
 ||instacart.com^$doc,removeparam=ic_medium
+||instagram.com^$doc,removeparam=psln
+||instagram.com^$doc,removeparam=rpxt
+||instagram.com^$doc,removeparam=srtk
+||instagram.com^$doc,removeparam=obrf
+||instagram.com^$doc,removeparam=cplk
+||instagram.com^$doc,removeparam=dlrf
+||instagram.com^$doc,removeparam=xtok
+||instagram.com^$doc,removeparam=mdxt
+||instagram.com^$doc,removeparam=exln
+||instagram.com^$doc,removeparam=vrfl
 $removeparam=cp_ksver
 $removeparam=biw
 $removeparam=bih
@@ -218204,13 +218214,6 @@ $removeparam=share_link_id
 ||tiktok.com^$removeparam=share_author_id
 $doc,removeparam=/^web_id\d+/,domain=tiktok.com
 ||tiktok.com^$removeparam=embed_source
-||instagram.com^$doc,removeparam=psln
-||instagram.com^$doc,removeparam=rpxt
-||instagram.com^$doc,removeparam=srtk
-||instagram.com^$doc,removeparam=obrf
-||instagram.com^$doc,removeparam=cplk
-||instagram.com^$doc,removeparam=dlrf
-||instagram.com^$doc,removeparam=xtok
 $removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtu.be|zappos.com
 ||open.spotify.com^$removeparam=/^.*advertising_partner_name=.*$/i
 ||open.spotify.com^$removeparam=%243p
@@ -219882,6 +219885,7 @@ ref=macapp.supply$doc,removeparam=ref
 ||verizon.com^$doc,removeparam=CUHID
 ||verizon.com^$doc,removeparam=EMHID
 ||verizon.com^$doc,removeparam=BID
+ref=thebirthofacapital.info$doc,removeparam=ref
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
