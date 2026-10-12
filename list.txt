@@ -218775,7 +218775,7 @@ $removeparam=CAGPSPN
 ||lendgo.com^$removeparam=apr
 $removeparam=rt,domain=lendgo.com|bilibili.com
 ||lendgo.com^$removeparam=lt
-$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com
+$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com|mcdonalds.com
 $removeparam=referaldomain,domain=microcenter.com
 $removeparam=web,domain=microcenter.com|tomtop.com
 ||unieuro.it^$removeparam=dedup
