@@ -195917,7 +195917,9 @@ the-star.co.ke##div.premium-gate__paywall,div.premium-content figure:not(:has(im
 ||theatlantic.com/zephr/decision-engine$xmlhttprequest,~third-party
 theatlantic.com##aside#paywall,div[class^="LostInventoryMessage_"]
 ||thedailybeast.com/zephr/decision-engine$xmlhttprequest,~third-party
-||cloudfunctions.net/gated-countView$xmlhttprequest,domain=thediplomat.com
+thediplomat.com##+js(ra, style, div#app_story_content, stay)
+thediplomat.com##+js(ra, hidden, aside[hidden], stay)
+thediplomat.com##aside#tda-gated-appendix,section#tda-gated-body
 thedispatch.com##+js(cookie-remover, xbc)
 ||thedispatch.com/next-250/$inline-script
 theglobeandmail.com##+js(set, window.Fusion.globalContent._id, 0)
