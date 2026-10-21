@@ -206350,6 +206350,9 @@ afr.com##+js(rpnt, script, /tp = window.tp/, 'setTimeout(function(){eval=window.
 ||gcprivacy.id^
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=www.reviewjournal.com
 @@||vms-videos.minutemediaservices.com^
+ejewishphilanthropy.com##+js(acis, jQuery)
+||flip-pay.com^$3p
+||clientside-collector-*.run.app/tag.js
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
 androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
