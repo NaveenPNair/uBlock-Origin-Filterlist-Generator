@@ -208438,6 +208438,7 @@ economist.com##html,body:style(overflow: visible !important;)
 elespanol.com##+js(rc, content-not-granted-paywall, div.content-not-granted-paywall, stay)
 elespanol.com##div.full-suscriptor-container
 elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--closed, stay)
+elconfidencial.com##+js(ra, hidden, div#news-body-cc[hidden], stay)
 ||elobservador.com.uy/shares$xmlhttprequest,~third-party
 ||elpais.com.uy/user/authStatus$script,~third-party
 ||prisa.com/dist/subs/pmwall/*/pmwall.min.js$script,domain=elpais.com
