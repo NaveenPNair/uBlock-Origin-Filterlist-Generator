@@ -235582,7 +235582,7 @@ $removeparam=sk,domain=aliexpress.*|bing.com
 ||bing.$removeparam=refig
 ||bing.$removeparam=go
 ||bing.com/search?$removeparam=cvid
-||bing.com^$removeparam=/^sh[b-np-z0-9]/
+||bing.com^$doc,removeparam=/^sh[b-np-z0-9]/
 ||bing.$removeparam=nclid
 ||bing.$removeparam=crslsl
 ||bing.$removeparam=ecount
@@ -237475,6 +237475,7 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 ||oxylabs.io^$removeparam=transaction_id
 ||simon.com^$doc,removeparam=bt_ee
 ||simon.com^$doc,removeparam=bt_ts
+||ck12.org^$doc,removeparam=refcode
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
