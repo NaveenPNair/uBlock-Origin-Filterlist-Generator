@@ -237476,6 +237476,11 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 ||simon.com^$doc,removeparam=bt_ee
 ||simon.com^$doc,removeparam=bt_ts
 ||ck12.org^$doc,removeparam=refcode
+$doc,removeparam=hid,domain=investopedia.com|people.inc
+$removeparam=did,domain=investopedia.com|people.inc
+||investopedia.com^$removeparam=lctg
+$doc,removeparam=lr_input,domain=investopedia.com|people.inc
+||investopedia.com^$doc,removeparam=inv_to_sim
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
