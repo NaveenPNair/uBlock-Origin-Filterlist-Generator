@@ -225765,6 +225765,7 @@ kuz20ehcjd.kameleoon.io
 www.magnite.com
 resources.magnite.com
 cdn.parsely.com
+global-weighted-us-west-1.px.quantserve.com
 ww1.appple.com
 update.microsoftkernel.com
 update.microsofthk.com
@@ -226480,3 +226481,6 @@ images.clevguard.org
 www.spyrix.com
 counter.ad-tech.ru
 in-ftd-275.fr3.vip.prod.criteo.com
+ssp-rambler.ad-tech.ru
+in-ftd-275.da1.vip.prod.criteo.com
+in-ftd-172.da1.vip.prod.criteo.com
