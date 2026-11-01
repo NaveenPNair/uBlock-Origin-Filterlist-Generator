@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 31/10/2026
+! Last updated: 01/11/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -238372,6 +238372,7 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=mdxt
 ||instagram.com^$doc,removeparam=exln
 ||instagram.com^$doc,removeparam=vrfl
+||instagram.com^$doc,removeparam=target_user_id
 $removeparam=cp_ksver
 $removeparam=biw
 $removeparam=bih
@@ -240163,6 +240164,7 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 $doc,removeparam=hid,domain=investopedia.com|people.inc
 $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||investopedia.com^$doc,removeparam=inv_to_sim
+||entire.com^$removeparam=redirected_from
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk|if.com.au
 $removeparam=h,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com|dr.dk
 $removeparam=width,domain=i-viaplay.com.akamaized.net|media.discordapp.net|tvno.nu
