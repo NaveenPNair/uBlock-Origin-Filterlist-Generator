@@ -1,6 +1,6 @@
 ! Title: Custom uBlock Origin Combo List
 ! Expires: 1 day
-! Last updated: 11/11/2026
+! Last updated: 12/11/2026
 ! Homepage: https://github.com/NaveenPNair/uBlock-Origin-Filterlist-Generator
 ! Combined from 14 filter lists
 
@@ -225407,10 +225407,11 @@ bizjournals.com##html, body:style(overflow: inherit!important)
 bizjournals.com##div[data-dev^="CxWidget_site"][data-dev*="marketing"]
 bizjournals.com###MarketSubOffer, #cxense_bottom_bar
 bizjournals.com##.paywall-content>.print\:hidden
-bizjournals.com##+js(rpnt, script, '/"(standard|peakNews|breakingNews)"/', '"nativeAd"', sedCount, 1)
+bizjournals.com##+js(rpnt, script, '/"(standard|peakNews|breakingNews|taEvergreen)"/', '"nativeAd"', sedCount, 1)
 bizjournals.com##[data-dev="MovableAd"]
 bizjournals.com##a[id^="cXLink"]:upward(#headlessui-portal-root)
 bizjournals.com##[data-dev="PromoListings"]
+bizjournals.com##+js(set, tp.pianoId, {})
 australvaldivia.cl##+js(set, app.isPortada, true)
 australvaldivia.cl##+js(remove-attr, oncontextmenu)
 ||harpers.org^*/pum/
