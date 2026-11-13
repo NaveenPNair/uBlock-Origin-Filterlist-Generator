@@ -225762,7 +225762,6 @@ enotes.com##section#enotes-paywall
 enotes.com##+js(ra, class, div.u-paywall, stay)
 ||estadao.com.br/paywall/$script,~third-party
 ||estadao.com.br/access.js$script,~third-party
-euobserver.com##+js(rc, show, div.membership-upsell.show, stay)
 ||exame.com/_next/static/chunks/app/%5B*.js$script,~third-party
 ||specials.fd.nl/_next/static/chunks/framework-*.js$script,~third-party
 specials.fd.nl##div[class^="Opening_contentContainer"],section[class^="ScrollyText_"]:style(color: white)
@@ -225810,9 +225809,8 @@ ilfoglio.it##div.paywall
 ilsole24ore.com##+js(ra, style, body[style], stay)
 ilsole24ore.com##div.s24_adb
 ||inc42.com/wp-admin/admin-ajax.php|$xmlhttprequest,~third-party
-||independent.co.uk/*.html$inline-script
-||the-independent.com/*.html$inline-script
-independent.co.uk,the-independent.com##div.indy-paywall-banner
+/\.independent\.co\.uk\/.+\.html\?rel=plus/$inline-script,domain=independent.co.uk
+/\.the-independent\.com\/.+\.html\?rel=plus/$inline-script,domain=the-independent.com
 indianexpress.com##+js(ra, class|style, div.paywall, stay)
 indianexpress.com##+js(ra, class, p.first_intro_para, stay)
 indianexpress.com##div.ev-premium-paywall
