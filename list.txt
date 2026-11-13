@@ -251584,7 +251584,7 @@ $removeparam=ifs,domain=pcgamesn.com|pockettactics.com|thedigitalfix.com|theload
 ||bandcamp.com^$removeparam=search_rank
 ||bstn.com^$removeparam=indexName
 ||bstn.com^$removeparam=objectID
-||bstn.com^$removeparam=queryID
+$doc,removeparam=queryID,domain=bstn.com|suomalainen.com
 ||app.slack.com^$removeparam=entry_point
 ||nicovideo.jp/comic^$removeparam=track
 ||onenote.com^$removeparam=nf
