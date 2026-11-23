@@ -236675,8 +236675,6 @@ cz.de,dewezet.de,dieharke.de,dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-onl
 ||flip-pay.com^$script,third-party,domain=centralmaine.com|pressherald.com|sunjournal.com
 ||mcclatchy.com/mcc-paywall.js$script,third-party
 .com/wp-content/plugins/loader-wp/static/loader.min.js$script,~third-party
-bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"], stay)
-bostonherald.com,denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pressenterprise.com,sandiegouniontribune.com,twincities.com##[subscriptions-section="content-not-granted"]
 .de/thenewsbar/config/$xmlhttprequest,~third-party,domain=aerokurier.de|auto-motor-und-sport.de|flugrevue.de|motorradonline.de|womenshealth.de
 businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(rc, nmgp, div.article-page .nmgp, stay)
 businessdailyafrica.com,monitor.co.ug,mwananchi.co.tz,mwanaspoti.co.tz,nation.africa,thecitizen.co.tz,theeastafrican.co.ke##+js(ra, hidden, div.article-page [hidden], stay)
@@ -263193,7 +263191,6 @@ $doc,removeparam=adsterra_placement_id
 ||asuswebstorage.com^$removeparam=x-asc-sid-version
 ||asuswebstorage.com^$removeparam=x-asc-device-name
 ||asuswebstorage.com^$removeparam=x-asc-os-version
-||asuswebstorage.com^$removeparam=tlt
 featured_on=talkpython$doc,removeparam=featured_on
 ref=51st.news$doc,removeparam=ref
 ref=academy.socos.org$doc,removeparam=ref
